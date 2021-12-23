@@ -1,0 +1,20 @@
+name: The Wire
+type: theme
+description: The wire news theme
+core_version_requirement: ^9
+base theme: stable
+
+libraries:
+ - the_wire/layout
+
+regions:
+  header: Header
+  main_menu: 'Main menu'
+  main_content_top: 'Main content Top'
+  main_content_bottom: 'Main content Bottom'
+  the_wire_video: 'The Wire Video'
+  sidebar_first: 'Sidebar First'
+  sidebar_second: 'Sidebar Second'
+  footer: 'Footer'
+  page_top: 'Page Top'
+  page_bottom: 'Page Bottom'

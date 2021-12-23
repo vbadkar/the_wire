@@ -1,0 +1,11 @@
+<?php
+
+function news_hltv_theme_theme_suggestions_alter(array &$suggestions, array $variables, $hook){
+
+    if($variables['id'] == 'field_logo'){
+      if($hook = 'image')
+      $suggestions[] = 'image-field-logo';
+    }
+
+
+}

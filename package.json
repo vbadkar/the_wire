@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "glob": "^7.2.0",
+    "glob-parent": "^6.0.2",
+    "gulp-cli": "^2.3.0",
+    "minimatch": "^3.0.4"
+  },
+  "name": "the_wire",
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "devDependencies": {
+    "browser-sync": "^2.27.7",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.0.0",
+    "sass": "^1.45.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "resolutions": {
+    "glob-parent": "5.1.2"
+  }
+}

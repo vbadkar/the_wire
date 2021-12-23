@@ -1,0 +1,9 @@
+layout:
+  version: VERSION
+  css:
+    layout:
+      css/layout.css: {}
+    components:
+      css/header.css: {}
+      css/footer.css: {}
+      css/main-menu.css: {}
