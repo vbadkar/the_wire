@@ -1,0 +1,10 @@
+.sidebars {
+  width: 100%;
+}
+
+.sidebar-wrapper {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 68.5% 30%;
+  gap: 1em;
+}

@@ -7,3 +7,6 @@ layout:
       css/header.css: {}
       css/footer.css: {}
       css/main-menu.css: {}
+      css/account-menu.css: {}
+      css/featured-news.css: {}
+      css/sidebar.css: {}

@@ -1,0 +1,50 @@
+.featured-news .views-row {
+  background-color: #fff;
+}
+.featured-news .views-field-field-news-image {
+  position: relative;
+}
+.featured-news .views-field-field-news-image img {
+  width: inherit;
+}
+.featured-news .views-field-field-category {
+  position: absolute;
+  top: 50%;
+  padding: 1rem;
+}
+.featured-news .views-field-field-category a {
+  text-decoration: none;
+  padding: 2px 5px;
+  color: #fff;
+  display: inline-block;
+  text-transform: uppercase;
+  font-family: Oswald, sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 2px;
+  background-color: #b71c1c;
+}
+.featured-news .views-field-title {
+  position: absolute;
+  top: 60%;
+  padding: 1rem;
+}
+.featured-news .views-field-title a {
+  color: #000;
+  background-color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 0 5px 0 5px;
+}
+.featured-news .views-field-field-author-name {
+  position: absolute;
+  top: 70%;
+  padding: 1rem;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+}
+.featured-news .views-field-field-author-name span {
+  font-size: 0.9em;
+  color: #fff;
+}
