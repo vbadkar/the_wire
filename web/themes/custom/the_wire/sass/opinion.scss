@@ -1,0 +1,42 @@
+@import "./partials/mixins";
+
+#block-views-block-opinion-block-1--2{
+  background-color: #fff;
+  margin-bottom: 1em;
+  padding: 10.5px;
+  box-shadow: 0 1px 5px 0 rgb(0 0 0 / 12%);
+  .views-row{
+    @include cardBoxShadow();
+  }
+  .opinion-section{
+    display: block;
+    .opinion-content{
+      padding: 18px;
+      .news-author{
+        @include newsAuthor();
+      }
+      .news-title{
+        a{
+          @include newsTitle();
+        }
+      }
+      .date-category{
+        display: flex;
+        time{
+          @include newsTime();
+        }
+        a{
+          @include newsCategory();
+        }
+      }
+    }
+  }
+  h2{
+    @include cardTitle();
+    padding: 7.5px 9.5px;
+  }
+  img{
+    width: 100%;
+    height: 100%;
+  }
+}
