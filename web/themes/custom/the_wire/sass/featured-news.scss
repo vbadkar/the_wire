@@ -1,13 +1,11 @@
 //featured news view
 .featured-news{
+  margin-bottom: 1em;
+  box-shadow: 0 1px 5px 0 rgb(0 0 0 / 12%);
   .views-row{
     background-color: #fff;
-  }
-  .views-field-field-news-image{
+    padding: 5px;
     position: relative;
-    img{
-      width: inherit;
-    }
   }
   .views-field-field-category{
     position: absolute;
@@ -37,6 +35,7 @@
       text-decoration: none;
       text-transform: uppercase;
       padding: 0 5px 0 5px;
+      text-align: center;
     }
   }
   .views-field-field-author-name{
@@ -47,10 +46,22 @@
     font-size: 14px;
     font-weight: 400;
     span{
-      // color: #9d9d9d;
+      color: #9d9d9d;
       font-size: 0.9em;
-      color: #fff;
     }
 
   }
 }
+
+
+@media (max-width: 320px){
+  .featured-news{
+    width: 100%;
+    .views-field-field-author-name{
+      top: 85%;
+    }
+  }
+}
+
+
+
