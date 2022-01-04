@@ -1,0 +1,36 @@
+@import "./partials/mixins";
+
+#block-sidebarmenu{
+  .side-bar-menu{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    padding: 14px 24px;
+    @include cardBoxShadow();
+  }
+}
+
+@media (min-width: 320px){
+  #block-sidebarmenu{
+    background: none;
+    width: 100%;
+    .side-bar-menu{
+      .side-bar-menu-items{
+        list-style: none;
+        a{
+          color: #939393;
+          text-decoration: none;
+          padding-top: 7px;
+          font-weight: 500;
+          font-size: 14px;
+          text-transform: uppercase;
+          overflow: hidden;
+          position: relative;
+          width: 100%;
+          text-align: center;
+        }
+      }
+    }
+  }
+}
