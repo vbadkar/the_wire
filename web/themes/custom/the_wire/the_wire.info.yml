@@ -6,6 +6,7 @@ base theme: stable
 
 libraries:
  - the_wire/layout
+ - the_wire/hamburger
 
 regions:
   header: Header
