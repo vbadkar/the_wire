@@ -1,0 +1,24 @@
+the_wire.mobile:
+  label: mobile
+  mediaQuery: ''
+  weight: 0
+  multipliers:
+    - 1x
+the_wire.mobile2:
+  label: mobile2
+  mediaQuery: 'all and (min-width: 321px) and (max-width: 424px)'
+  weight: 0
+  multipliers:
+    - 1x
+the_wire.narrow:
+  label: narrow
+  mediaQuery: 'all and (min-width: 425px) and (max-width: 768px)'
+  weight: 1
+  multipliers:
+    - 1x
+the_wire.wide:
+  label: wide
+  mediaQuery: 'all and (min-width: 769px)'
+  weight: 2
+  multipliers:
+    - 1x
