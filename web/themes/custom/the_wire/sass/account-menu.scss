@@ -1,9 +1,9 @@
 //account menu
 #block-the-wire-account-menu{
-  .nav-bar{
+  .nav-bar-account{
     margin: 0;
     list-style: none;
-    .nav-list-items{
+    .nav-list-items-account{
       display: inline-block;
       text-transform: uppercase;
       margin-right: 20px;
@@ -40,10 +40,10 @@
   }
 }
 #block-the-wire-account-menu{
-  .nav-bar{
+  .nav-bar-account{
     float: right;
     padding: 25px;
-    .nav-list-items{
+    .nav-list-items-account{
       a{
         text-decoration: none;
         text-transform: uppercase;
@@ -51,4 +51,12 @@
       }
     }
   }
+}
+
+
+@media (max-width: 320px){
+  #block-the-wire-account-menu{
+    display: none;
+  }
+
 }
