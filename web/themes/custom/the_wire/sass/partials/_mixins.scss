@@ -1,0 +1,63 @@
+@mixin cardTitle {
+  color: #939393;
+  font-size: 17px;
+  font-weight: 500;
+  margin: 0;
+  padding: 18px 20px;
+  text-transform: uppercase;
+  width: 100%;
+}
+@mixin image-title-card {
+  display: grid;
+  grid-template-columns: 35% 60%;
+  gap: 1em;
+  padding: 2px 3px 2px 3px;
+}
+
+@mixin cardBoxShadow {
+  box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%),
+  0 3px 1px -2px rgb(0 0 0 / 12%),
+  0 1px 5px 0 rgb(0 0 0 / 20%);
+  margin-bottom: 1em;
+}
+
+@mixin newsTitle {
+  text-decoration: none;
+  font-size: 1em;
+  color: #000;
+  font-weight: 400;
+  margin: 10px 0 10px 0;
+  text-align: left;
+}
+
+@mixin newsTime {
+  color: #9b9292;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 14px;
+  padding-right: 10px;
+  letter-spacing: .7px;
+}
+
+@mixin newsCategory {
+  background-color: #b71c1c;
+  padding: 2px 5px;
+  color: #fff;
+  display: inline-block;
+  text-transform: uppercase;
+  margin-right: 10px;
+  margin: 2px;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-decoration: none;
+}
+
+@mixin newsAuthor {
+  color: #9d9d9d;
+  margin-top: 25px;
+  font-size: .9em;
+  font-size: 14px;
+  padding-right: 0;
+  font-style: normal;
+}
