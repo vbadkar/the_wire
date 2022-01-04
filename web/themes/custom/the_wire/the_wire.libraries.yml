@@ -10,3 +10,19 @@ layout:
       css/account-menu.css: {}
       css/featured-news.css: {}
       css/sidebar.css: {}
+      css/top-stories.css: {}
+      css/editors-pick.css: {}
+      css/more-in-all.css: {}
+      css/opinion.css: {}
+      css/side-bar-menu.css: {}
+      css/culture.css: {}
+      css/from-science.css: {}
+      css/analysis.css: {}
+      css/external-affairs.css: {}
+      css/livewire.css: {}
+      css/wire-video.css: {}
+
+hamburger:
+  version: VERSION
+  js:
+    js/hamburger.js: {}
