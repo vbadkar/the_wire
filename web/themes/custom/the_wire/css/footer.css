@@ -25,3 +25,12 @@
   font-size: 15px;
   text-decoration: none;
 }
+
+@media (min-width: 320px) {
+  .site-footer-wrapper {
+    display: none;
+  }
+  .site-footer-wrapper .site-footer {
+    display: none;
+  }
+}
