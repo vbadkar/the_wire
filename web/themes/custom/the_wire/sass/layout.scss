@@ -23,3 +23,24 @@ body{
   grid-template-columns: 70% 30%;
   gap: 1em;
 }
+
+
+@media (max-width: 320px){
+  .layout-container{
+    display: block;
+  }
+  .main-content-first-section{
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+  }
+  .main-content-second-section{
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+  }
+  .page-wrapper{
+    width: 100%;
+    margin: 0 auto;
+  }
+}
