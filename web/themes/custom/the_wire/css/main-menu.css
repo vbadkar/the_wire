@@ -32,3 +32,12 @@
   text-decoration: none;
   color: #fff;
 }
+
+@media (max-width: 320px) {
+  #block-the-wire-main-menu .nav-bar {
+    display: none;
+  }
+  #block-the-wire-main-menu .show {
+    display: block;
+  }
+}

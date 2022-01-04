@@ -32,3 +32,16 @@
     }
   }
 }
+
+@media (max-width: 320px){
+  #block-the-wire-main-menu{
+    .nav-bar{
+      display: none;
+    }
+    .show{
+      display: block;
+    }
+
+  }
+
+}
