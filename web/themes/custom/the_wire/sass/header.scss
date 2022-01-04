@@ -2,6 +2,7 @@
 //header
 .region-header{
   display: grid;
+  width: 100%;
   grid-template-columns: 10% 50% 40%;
   justify-content: space-between;
 }
@@ -17,6 +18,9 @@
 }
 
 //site logo
+#block-hamburgericon{
+  display: none;
+}
 #block-sitelogo{
   padding: 30px 0;
   .site-logo-wrapper{
@@ -30,12 +34,7 @@
     }
   }
 }
-#block-the-wire-branding{
-  img{
-    height: 60px;
-    width: 120px;
-  }
-}
+
 
 //language switcher
 #block-languageswitcher{
@@ -61,4 +60,39 @@
     }
 
   }
+}
+
+
+@media (max-width: 320px){
+  #block-languageswitcher{
+    display: none;
+  }
+  .site-header{
+    display: block;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    background-color: #fff;
+    height: 60px;
+    top: 0;
+  }
+  .region-header{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    padding: 0;
+    height: 60px;
+  }
+  #block-hamburgericon{
+    display: block;
+    .site-logo-wrapper{
+      #Layer_1{
+        cursor: pointer;
+      }
+    }
+  }
+  #block-sitelogo{
+    padding: 0;
+  }
+
 }
