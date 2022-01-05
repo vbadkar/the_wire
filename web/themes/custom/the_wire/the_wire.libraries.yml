@@ -21,8 +21,14 @@ layout:
       css/external-affairs.css: {}
       css/livewire.css: {}
       css/wire-video.css: {}
+      css/trending.css: {}
 
 hamburger:
   version: VERSION
   js:
     js/hamburger.js: {}
+
+scrollNav:
+  version: VERSION
+  js:
+    js/scrollNav.js: {}

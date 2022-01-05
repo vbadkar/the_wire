@@ -69,21 +69,27 @@
   }
   .site-header{
     display: block;
-    position: fixed;
     z-index: 1;
     width: 100%;
     background-color: #fff;
     height: 60px;
     top: 0;
+    border-bottom: 3px solid #b71c1c;
+    padding: 0;
+  }
+  .site-header.scroll{
+    position: fixed;
   }
   .region-header{
     width: 100%;
-    display: grid;
-    grid-template-columns: 30% 70%;
+    display: flex;
+    justify-content: normal;
+    gap: 2em;
     padding: 0;
     height: 60px;
   }
   #block-hamburgericon{
+    width: 75px;
     display: block;
     .site-logo-wrapper{
       #Layer_1{
@@ -92,7 +98,7 @@
     }
   }
   #block-sitelogo{
-    padding: 0;
+    padding: 10px 0;
   }
 
 }
