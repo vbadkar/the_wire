@@ -40,6 +40,9 @@ function the_wire_theme_suggestions_alter(array &$suggestions, array $variables,
       if($view_id == 'the_wire_video'){
         $suggestions[] = 'views_view_fields__'. $view_id;
       }
+      if($view_id == 'trending_on_the_wire'){
+        $suggestions[] = 'views_view_fields__'. $view_id;
+      }
       //  kint($view->id());
     }
 }
