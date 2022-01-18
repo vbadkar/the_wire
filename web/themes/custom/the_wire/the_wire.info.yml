@@ -5,9 +5,10 @@ core_version_requirement: ^9
 base theme: stable
 
 libraries:
- - the_wire/layout
+ - the_wire/style
  - the_wire/hamburger
  - the_wire/scrollNav
+ - the_wire/searchButton
 
 regions:
   header: Header

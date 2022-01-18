@@ -1,12 +1,15 @@
-layout:
+style:
   version: VERSION
   css:
+    base:
+      css/base.css: {}
     layout:
       css/layout.css: {}
-    components:
+    theme:
       css/header.css: {}
       css/footer.css: {}
       css/main-menu.css: {}
+    components:
       css/account-menu.css: {}
       css/featured-news.css: {}
       css/sidebar.css: {}
@@ -22,6 +25,7 @@ layout:
       css/livewire.css: {}
       css/wire-video.css: {}
       css/trending.css: {}
+      css/tek_fog.css: {}
 
 hamburger:
   version: VERSION
@@ -32,3 +36,8 @@ scrollNav:
   version: VERSION
   js:
     js/scrollNav.js: {}
+
+searchButton:
+  version: VERSION
+  js:
+    js/searchButton.js: {}

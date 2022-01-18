@@ -1,5 +1,5 @@
 const hamburger = document.querySelector('#Layer_1');
-const list = document.querySelector('.nav-bar');
+const list = document.querySelector('.nav-overlay');
 hamburger.classList.add('show');
 hamburger.addEventListener('click', function(){
     list.classList.toggle('show');
