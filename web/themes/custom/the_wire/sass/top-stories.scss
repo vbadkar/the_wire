@@ -1,18 +1,67 @@
+@import "./partials/mixins";
 #block-views-block-top-stories-block-1-2--2{
   background-color: #fff;
   margin-bottom: 1em;
   box-shadow: 0 1px 5px 0 rgb(0 0 0 / 12%);
+  .slick {
+    width: 89%;
+    margin: 0 auto;
+  }
+  .slick-arrow {
+    background: #b71c1c;
+    height: 0.9rem;
+    width: 0.9rem;
+    font-weight: 600;
+  }
+  .slick-prev {
+    left: 16rem;
+    top: -12rem;
+    &::before {
+      font-size: 1.25rem;
+      position: relative;
+      left: -3px;
+      top: -2px;
+      opacity: 1;
+      color: white;
+    }
+    &:hover {
+      background: black;
+      &::before {
+        color: white;
+      }
+    }
+    &:focus {
+      background: black;
+    }
+  }
+  .slick-next {
+    right: 3rem;
+    top: -12rem;
+    &::before {
+      font-size: 1.25rem;
+      position: relative;
+      left: -3px;
+      top: -2px;
+      opacity: 1;
+      color: white;
+    }
+    &:hover {
+      background: black;
+      &::before {
+        color: white;
+      }
+    }
+    &:focus {
+      background: black;
+    }
+  }
   h2{
-    color: #939393;
-    font-size: 1px;
-    font-weight: 500;
-    margin: 0;
-    padding: 18px 20px;
-    text-transform: uppercase;
+    @include cardTitle();
   }
   .views-field-field-news-image{
+    width: 100%;
     position: relative;
-    padding: 10px;
+    padding: 0 10px;
   }
   .views-field-field-category{
     position: absolute;
