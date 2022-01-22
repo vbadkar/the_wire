@@ -14,6 +14,26 @@
 #}
 {% if content %}
   <div{{ attributes.addClass('main-content-second-section') }}>
-    {{ content }}
+    <div class="fourth-line">
+            <div class="from-science">
+              {{ elements.views_block__more_in_science_block_1 }}
+            </div>
+            <div class="culture">
+              {{ elements.views_block__culture_block_1 }}
+            </div>
+          </div>
+          <div class="fifth-line">
+            <div class="analysis">
+              {{ elements.views_block__analysis_block_1 }}
+            </div>
+          </div>
+          <div class="sixth-line">
+            <div class="livewire">
+              {{ elements.views_block__from_livewire_block_1 }}
+            </div>
+            <div class="external-affairs">
+              {{ elements.views_block__external_affairs_block_1 }}
+            </div>
+          </div>
   </div>
 {% endif %}
