@@ -7,6 +7,11 @@
   text-transform: uppercase;
   width: 100%;
 }
+@mixin homeMobileLayout {
+  width: 90%;
+  margin: 0 auto;
+  display: block;
+}
 @mixin image-title-card {
   display: grid;
   grid-template-columns: 35% 60%;
@@ -60,4 +65,15 @@
   font-size: 14px;
   padding-right: 0;
   font-style: normal;
+}
+
+@mixin moreLinkText {
+  color: #939393;
+  float: right;
+  text-decoration: none;
+  margin-right: 40px;
+  position: relative;
+  font-size: 1em;
+  letter-spacing: .07em;
+  top: -6px;
 }
