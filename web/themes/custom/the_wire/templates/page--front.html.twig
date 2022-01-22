@@ -63,37 +63,36 @@
         <div class="content-first">
           {{ page.main_content_top }}
         </div>
-    </div>
-    <div class="the-wire-video-wrapper">
-      <div class="the-wire-video">
-        {{ page.the_wire_video }}
       </div>
-    </div>
-    <div class="content-second-wrapper">
-        <div class="content-second">
-          {{ page.main_content_bottom }}
+      <div class="the-wire-video-wrapper">
+        <div class="the-wire-video">
+          {{ page.the_wire_video }}
         </div>
-    </div>
-    <div class="sidebars">
-      <div class="sidebar-wrapper">
-        {% if page.sidebar_first %}
-        <div class="side_bar_more_in">
-          <aside class="layout-sidebar-first" role="complementary">
-            {{ page.sidebar_first }}
-          </aside>
-        </div>
-        {% endif %}
-
-        {% if page.sidebar_second %}
-        <div class="side_bar_trending">
-          <aside class="layout-sidebar-second" role="complementary">
-            {{ page.sidebar_second }}
-          </aside>
-        </div>
-        {% endif %}
       </div>
-    </div>
+      <div class="content-second-wrapper">
+          <div class="content-second">
+            {{ page.main_content_bottom }}
+          </div>
+      </div>
+      <div class="sidebars">
+        <div class="sidebar-wrapper">
+          {% if page.sidebar_first %}
+          <div class="side_bar_more_in">
+            <aside class="layout-sidebar-first" role="complementary">
+              {{ page.sidebar_first }}
+            </aside>
+          </div>
+          {% endif %}
 
+          {% if page.sidebar_second %}
+          <div class="side_bar_trending">
+            <aside class="layout-sidebar-second" role="complementary">
+              {{ page.sidebar_second }}
+            </aside>
+          </div>
+          {% endif %}
+        </div>
+      </div>
     </main>
   </div>
   <div class="site-footer-wrapper">
