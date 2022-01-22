@@ -8,6 +8,10 @@ function news_hltv_theme_theme_suggestions_alter(array &$suggestions, array $var
     }
 
 }
+function the_wire_preprocess_slick(){
+  $variables['settings']['unslick'] = TRUE;
+}
+
 function the_wire_theme_suggestions_alter(array &$suggestions, array $variables, $hook){
 
     if($hook == 'views_view_fields'){
@@ -43,6 +47,38 @@ function the_wire_theme_suggestions_alter(array &$suggestions, array $variables,
       if($view_id == 'trending_on_the_wire'){
         $suggestions[] = 'views_view_fields__'. $view_id;
       }
+      if($view_id == 'tek_fog'){
+        $suggestions[] = 'views_view_fields__'. $view_id;
+      }
       //  kint($view->id());
     }
 }
+
+function the_wire_theme_suggestions_views_view_alter(array &$suggestions, array $variables, $hook){
+  $view = $variables['view'];
+  $view_id = $view->id();
+  if($hook == 'views_view'){
+    if($view_id == 'tek_fog'){
+      $suggestions[] = 'views_view__'. $view_id;
+    }
+    if($view_id == 'analysis'){
+      $suggestions[] = 'views_view__'. $view_id;
+    }
+    if($view_id == 'opinion'){
+      $suggestions[] = 'views_view__'. $view_id;
+    }
+    if($view_id == 'more_in_science'){
+      $suggestions[] = 'views_view__'. $view_id;
+    }
+    if($view_id == 'culture'){
+      $suggestions[] = 'views_view__'. $view_id;
+    }
+    if($view_id == 'from_livewire'){
+      $suggestions[] = 'views_view__'. $view_id;
+    }
+    if($view_id == 'external_affairs'){
+      $suggestions[] = 'views_view__'. $view_id;
+    }
+  }
+}
+
