@@ -49,6 +49,10 @@
   color: #9d9d9d;
   font-size: 0.9em;
 }
+.featured-news .views-field-field-news-image img {
+  width: 100%;
+  height: 347px;
+}
 
 @media (max-width: 320px) {
   .featured-news {

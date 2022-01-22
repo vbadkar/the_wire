@@ -9,7 +9,7 @@
   gap: 1em;
 }
 
-@media (min-width: 320px) {
+@media (max-width: 320px) {
   .sidebar-wrapper {
     display: block;
     margin-bottom: 1em;

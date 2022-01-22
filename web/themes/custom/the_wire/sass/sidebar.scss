@@ -8,3 +8,10 @@
   grid-template-columns: 68.5% 30%;
   gap: 1em;
 }
+
+@media (max-width: 320px){
+  .sidebar-wrapper{
+    display: block;
+    margin-bottom: 1em;
+  }
+}
