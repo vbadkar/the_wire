@@ -683,6 +683,7 @@ $settings['container_yamls'][] = $app_root . '/' . $site_path . '/services.yml';
  * @code
  * $settings['trusted_host_patterns'] = [
  *   '^www\.example\.com$',
+ *    '^localhost$',
  * ];
  * @endcode
  * will allow the site to only run from www.example.com.
@@ -704,7 +705,10 @@ $settings['container_yamls'][] = $app_root . '/' . $site_path . '/services.yml';
  * will allow the site to run off of all variants of example.com and
  * example.org, with all subdomains included.
  */
-
+$settings['trusted_host_patterns'] = [
+  '^www\.example\.com$',
+  '^localhost$',
+];
 /**
  * The default list of directories that will be ignored by Drupal's file API.
  *
@@ -780,3 +784,7 @@ $databases['default']['default'] = array (
   'driver' => 'mysql',
 );
 $settings['config_sync_directory'] = 'sites/default/files/config_hB6-yPZhuDsqGs963MoNrb2FVXYvr0B5zZffeefOvUZO9dLck_w48bjJ_9n9y318tvbx9k_CRQ/sync';
+
+if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
+  include $app_root . '/' . $site_path . '/settings.local.php';
+}
