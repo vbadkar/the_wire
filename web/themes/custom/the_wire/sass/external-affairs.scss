@@ -1,5 +1,4 @@
 @import "./partials/mixins";
-
 #block-views-block-external-affairs-block-1--2{
   background-color: #fff;
   margin-bottom: 1em;
@@ -34,9 +33,17 @@
       .external-affairs-image{
         img{
           width: 100%;
-          height: 240px;
+          height: 200px;
         }
       }
     }
+  }
+}
+
+@media (min-width: 768px){
+  .external-affairs-row{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
   }
 }
