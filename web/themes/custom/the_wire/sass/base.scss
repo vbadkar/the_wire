@@ -1,17 +1,18 @@
-html {
+html{
   font-size: 16px;
-  font-family: Oswald, sans-serif;
+  font-family: Oswald,sans-serif;
   font-weight: 500;
 }
-
-body {
+body{
   background-color: #e4e4e4;
   margin: 0 auto;
   padding: 0;
+  // max-width: 1323px;
+  // border: 2px solid red;
 }
 
-@media (max-width: 320px) {
-  body {
+@media (max-width: 320px){
+  body{
     max-width: 320px;
     margin: 0 auto;
     width: 100%;
