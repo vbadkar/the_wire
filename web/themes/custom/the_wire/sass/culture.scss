@@ -34,9 +34,16 @@
       .culture-image{
         img{
           width: 100%;
-          height: 240px;
+          height: 200px;
         }
       }
     }
+  }
+}
+@media (min-width: 768px){
+  .culture-row{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
   }
 }
