@@ -1,0 +1,134 @@
+.form-wrapper {
+  width: 100%;
+}
+.form-wrapper .register-form {
+  width: 90%;
+  margin: auto;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+}
+.form-wrapper .register-form #block-the-wire-content {
+  width: 100%;
+  margin: auto;
+}
+.form-wrapper .register-form .or-separator {
+  font-family: Montserrat;
+  font-size: 1em;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 1em;
+}
+.form-wrapper .register-form #edit-submit {
+  border-radius: 200px;
+  background-color: #b71c1c;
+  color: #fff;
+  text-align: left;
+  font-family: Montserrat;
+  font-size: 1em;
+  font-weight: 500;
+  padding: 12px 20px;
+  width: 100%;
+  border: none;
+  margin-bottom: 0.5em;
+  box-shadow: 0px 1px 2px #7b807e3b;
+}
+.form-wrapper .register-form #edit-submit-google {
+  border-radius: 200px;
+  background-color: #fff;
+  color: #1d1d1d;
+  text-align: left;
+  font-family: Montserrat;
+  font-size: 1em;
+  font-weight: 500;
+  padding: 12px 20px;
+  width: 100%;
+  border: none;
+  margin-bottom: 0.5em;
+}
+.form-wrapper .register-form #edit-submit-youtube {
+  border-radius: 200px;
+  background-color: #fff;
+  color: #1d1d1d;
+  text-align: left;
+  font-family: Montserrat;
+  font-size: 1em;
+  font-weight: 500;
+  padding: 12px 20px;
+  width: 100%;
+  border: none;
+  margin-bottom: 0.5em;
+}
+.form-wrapper .register-form .form-text {
+  width: 100%;
+  border: none;
+  padding: 15px 10px 15px 10px;
+  border-radius: 4px;
+  color: #1d1d1d;
+  background-color: none;
+  margin: 10px 0 10px 0;
+  font-family: Montserrat;
+  font-size: 1em;
+  font-weight: 500;
+}
+.form-wrapper .register-form .form-email {
+  width: 100%;
+  border: none;
+  padding: 15px 10px 15px 10px;
+  border-radius: 4px;
+  color: #1d1d1d;
+  background-color: none;
+  margin: 10px 0 10px 0;
+  font-family: Montserrat;
+  font-size: 1em;
+  font-weight: 500;
+}
+.form-wrapper .form-header {
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 1em;
+  font-weight: 500;
+  color: #b82925;
+  font-size: 2rem;
+  margin: 20px 0px;
+}
+.form-wrapper form {
+  font-family: Montserrat;
+  font-size: 1em;
+  font-weight: 500;
+}
+.form-wrapper form #edit-mail--description {
+  display: none;
+}
+.form-wrapper .redirect-text {
+  font-family: Montserrat;
+  font-size: 1em;
+  font-weight: 500;
+  text-align: center;
+}
+.form-wrapper .redirect-link {
+  color: #b71c1c;
+  font-family: Montserrat;
+  font-size: 1em;
+  font-weight: 500;
+}
+.form-wrapper #block-sitelogo-2 {
+  margin: auto;
+  width: 40%;
+  margin-top: 40px;
+}
+.form-wrapper .js-password-confirm-message {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .form-wrapper .register-form {
+    width: 400px;
+    margin: auto;
+  }
+  .form-wrapper #block-sitelogo-2 {
+    margin: auto;
+    width: 9%;
+    margin-top: 40px;
+  }
+}
