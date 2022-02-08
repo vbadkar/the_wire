@@ -1,60 +1,9 @@
 @import "./partials/mixins";
-#block-views-block-top-stories-block-1-2--2{
+#block-views-block-top-stories-block-1--2{
   background-color: #fff;
   margin-bottom: 1em;
   box-shadow: 0 1px 5px 0 rgb(0 0 0 / 12%);
-  .slick {
-    width: 89%;
-    margin: 0 auto;
-  }
-  .slick-arrow {
-    background: #b71c1c;
-    height: 0.9rem;
-    width: 0.9rem;
-    font-weight: 600;
-  }
-  .slick-prev {
-    left: 16rem;
-    top: -12rem;
-    &::before {
-      font-size: 1.25rem;
-      position: relative;
-      left: -3px;
-      top: -2px;
-      opacity: 1;
-      color: white;
-    }
-    &:hover {
-      background: black;
-      &::before {
-        color: white;
-      }
-    }
-    &:focus {
-      background: black;
-    }
-  }
-  .slick-next {
-    right: 3rem;
-    top: -12rem;
-    &::before {
-      font-size: 1.25rem;
-      position: relative;
-      left: -3px;
-      top: -2px;
-      opacity: 1;
-      color: white;
-    }
-    &:hover {
-      background: black;
-      &::before {
-        color: white;
-      }
-    }
-    &:focus {
-      background: black;
-    }
-  }
+
   h2{
     @include cardTitle();
   }
@@ -62,41 +11,47 @@
     width: 100%;
     position: relative;
     padding: 0 10px;
+    img{
+      width: 407px;
+      height: 315px;
+    }
   }
   .views-field-field-category{
     position: absolute;
     top: 50%;
     left: 40%;
     padding: 1rem;
-    text-decoration: none;
-    padding: 2px 5px;
-    color: #fff;
-    display: inline-block;
-    text-transform: uppercase;
-    font-weight: 400;
-    font-size: 12px;
-    letter-spacing: 2px;
-    background-color: #b71c1c;
+    a{
+      text-decoration: none;
+      padding: 2px 5px;
+      color: #fff;
+      display: inline-block;
+      text-transform: uppercase;
+      font-family: Oswald,sans-serif;
+      font-weight: 400;
+      font-size: 12px;
+      letter-spacing: 2px;
+      background-color: #b71c1c;
+    }
 
   }
   .views-field-title{
     position: absolute;
     top: 60%;
     padding: 1rem;
-    text-align: center;
-    line-height: 1.8em;
     a{
       color: #000;
       background-color: #fff;
       text-decoration: none;
       text-transform: uppercase;
       padding: 0 5px 0 5px;
+      text-align: center;
     }
   }
 }
 
 @media (min-width: 320px){
-  #block-views-block-top-stories-block-1-2--2{
+  #block-views-block-top-stories-block-1{
   width: 100%;
   margin: 0 auto;
 
