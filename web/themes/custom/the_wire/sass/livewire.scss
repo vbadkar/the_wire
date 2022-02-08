@@ -1,45 +1,47 @@
 @import "./partials/mixins";
-
-#block-views-block-from-livewire-block-1--2{
+.livewire{
   background-color: #fff;
   margin-bottom: 1em;
   padding: 10.5px;
   box-shadow: 0 1px 5px 0 rgb(0 0 0 / 12%);
-  h2{
-    @include cardTitle();
-    padding: 7.5px 9.5px;
-  }
-  .views-row{
-    @include cardBoxShadow();
-    .livewire-section{
-      .livewire-content{
-        padding: 18px;
-        .news-title{
-          a{
-            @include newsTitle();
+  #block-views-block-from-livewire-block-1--2{
+    h2{
+      @include cardTitle();
+      padding: 7.5px 9.5px;
+    }
+    .views-row{
+      @include cardBoxShadow();
+      .livewire-section{
+        .livewire-content{
+          padding: 18px;
+          .news-title{
+            a{
+              @include newsTitle();
+            }
+          }
+          .news-author{
+            @include newsAuthor();
+          }
+          .date-category{
+            time{
+              @include newsTime();
+            }
+            a{
+              @include newsCategory();
+            }
           }
         }
-        .news-author{
-          @include newsAuthor();
-        }
-        .date-category{
-          time{
-            @include newsTime();
+        .livewire-image{
+          img{
+            width: 100%;
+            height: 200px;
           }
-          a{
-            @include newsCategory();
-          }
-        }
-      }
-      .livewire-image{
-        img{
-          width: 100%;
-          height: 200px;
         }
       }
     }
   }
 }
+
 
 @media (min-width: 768px){
   .livewire-row{
