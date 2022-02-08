@@ -17,9 +17,9 @@
     "require": {
         "composer/installers": "^1.9",
         "drupal/admin_toolbar": "^3.0",
+        "drupal/better_exposed_filters": "^5.0",
         "drupal/blazy": "^2.5",
         "drupal/cheeseburger_menu": "^4.3",
-        "drupal/coder": "^8.3",
         "drupal/core-composer-scaffold": "^9.3",
         "drupal/core-project-message": "^9.3",
         "drupal/core-recommended": "^9.3",
@@ -31,6 +31,7 @@
         "drupal/fontawesome_menu_icons": "^1.9",
         "drupal/fontyourface": "^3.6",
         "drupal/iframe": "~2",
+        "drupal/livechat": "^3.0",
         "drupal/pathauto": "^1.8",
         "drupal/search_api": "^1.23",
         "drupal/slick_views": "^2.6",
@@ -109,6 +110,8 @@
         }
     },
     "require-dev": {
+        "dealerdirect/phpcodesniffer-composer-installer": "^0.7.1",
+        "drupal/coder": "^8.3",
         "drupal/slick": "^2.4",
         "kenwheeler/slick": "^1.6"
     }

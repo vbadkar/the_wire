@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '5d3212e3136b0640231d5cd4a8c38f68ee25bf28',
+        'reference' => '210c77e1302e410893c1d97f83ee37b54b269d47',
         'name' => 'drupal/recommended-project',
         'dev' => true,
     ),
@@ -134,7 +134,7 @@
             'install_path' => __DIR__ . '/../dealerdirect/phpcodesniffer-composer-installer',
             'aliases' => array(),
             'reference' => 'fe390591e0241955f22eb9ba327d137e501c771c',
-            'dev_requirement' => false,
+            'dev_requirement' => true,
         ),
         'dflydev/dot-access-data' => array(
             'pretty_version' => 'v1.1.0',
@@ -271,6 +271,15 @@
                 0 => '9.3.3',
             ),
         ),
+        'drupal/better_exposed_filters' => array(
+            'pretty_version' => '5.0.0',
+            'version' => '5.0.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/better_exposed_filters',
+            'aliases' => array(),
+            'reference' => '8.x-5.0',
+            'dev_requirement' => false,
+        ),
         'drupal/big_pipe' => array(
             'dev_requirement' => false,
             'replaced' => array(
@@ -350,7 +359,7 @@
             'install_path' => __DIR__ . '/../drupal/coder',
             'aliases' => array(),
             'reference' => 'adb06efa79ba8b91afed2f351014a6b94192622f',
-            'dev_requirement' => false,
+            'dev_requirement' => true,
         ),
         'drupal/color' => array(
             'dev_requirement' => false,
@@ -777,6 +786,42 @@
                 0 => '9.3.3',
             ),
         ),
+        'drupal/jquery_ui' => array(
+            'pretty_version' => '1.4.0',
+            'version' => '1.4.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/jquery_ui',
+            'aliases' => array(),
+            'reference' => '8.x-1.4',
+            'dev_requirement' => false,
+        ),
+        'drupal/jquery_ui_datepicker' => array(
+            'pretty_version' => '1.2.0',
+            'version' => '1.2.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/jquery_ui_datepicker',
+            'aliases' => array(),
+            'reference' => '8.x-1.2',
+            'dev_requirement' => false,
+        ),
+        'drupal/jquery_ui_slider' => array(
+            'pretty_version' => '1.1.0',
+            'version' => '1.1.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/jquery_ui_slider',
+            'aliases' => array(),
+            'reference' => '8.x-1.1',
+            'dev_requirement' => false,
+        ),
+        'drupal/jquery_ui_touch_punch' => array(
+            'pretty_version' => '1.0.0',
+            'version' => '1.0.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/jquery_ui_touch_punch',
+            'aliases' => array(),
+            'reference' => '1.0.0',
+            'dev_requirement' => false,
+        ),
         'drupal/jsonapi' => array(
             'dev_requirement' => false,
             'replaced' => array(
@@ -806,6 +851,15 @@
             'replaced' => array(
                 0 => '9.3.3',
             ),
+        ),
+        'drupal/livechat' => array(
+            'pretty_version' => '3.0.0',
+            'version' => '3.0.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/livechat',
+            'aliases' => array(),
+            'reference' => '8.x-3.0',
+            'dev_requirement' => false,
         ),
         'drupal/locale' => array(
             'dev_requirement' => false,
@@ -939,7 +993,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '5d3212e3136b0640231d5cd4a8c38f68ee25bf28',
+            'reference' => '210c77e1302e410893c1d97f83ee37b54b269d47',
             'dev_requirement' => false,
         ),
         'drupal/responsive_image' => array(
@@ -1405,7 +1459,7 @@
             'install_path' => __DIR__ . '/../phpstan/phpdoc-parser',
             'aliases' => array(),
             'reference' => 'dbc093d7af60eff5cd575d2ed761b15ed40bd08e',
-            'dev_requirement' => false,
+            'dev_requirement' => true,
         ),
         'psr/cache' => array(
             'pretty_version' => '1.0.1',
@@ -1526,7 +1580,7 @@
             'install_path' => __DIR__ . '/../sirbrillig/phpcs-variable-analysis',
             'aliases' => array(),
             'reference' => '3fad28475bfbdbf8aa5c440f8a8f89824983d85e',
-            'dev_requirement' => false,
+            'dev_requirement' => true,
         ),
         'slevomat/coding-standard' => array(
             'pretty_version' => '7.0.18',
@@ -1535,7 +1589,7 @@
             'install_path' => __DIR__ . '/../slevomat/coding-standard',
             'aliases' => array(),
             'reference' => 'b81ac84f41a4797dc25c8ede1b0718e2a74be0fc',
-            'dev_requirement' => false,
+            'dev_requirement' => true,
         ),
         'squizlabs/php_codesniffer' => array(
             'pretty_version' => '3.6.2',
@@ -1544,7 +1598,7 @@
             'install_path' => __DIR__ . '/../squizlabs/php_codesniffer',
             'aliases' => array(),
             'reference' => '5e4e71592f69da17871dba6e80dd51bce74a351a',
-            'dev_requirement' => false,
+            'dev_requirement' => true,
         ),
         'stack/builder' => array(
             'pretty_version' => 'v1.0.6',
