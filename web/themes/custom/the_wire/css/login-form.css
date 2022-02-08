@@ -1,0 +1,143 @@
+.form-wrapper {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+.form-wrapper .login-form {
+  width: 90%;
+  margin: auto;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 0;
+}
+.form-wrapper .login-form #block-the-wire-content {
+  width: 100%;
+  margin: auto;
+}
+.form-wrapper .login-form .or-separator {
+  font-family: Montserrat;
+  font-size: 1em;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 1em;
+}
+.form-wrapper .login-form #edit-submit {
+  border-radius: 200px;
+  background-color: #b71c1c;
+  color: #fff;
+  text-align: left;
+  font-family: Montserrat;
+  font-size: 1em;
+  font-weight: 500;
+  padding: 12px 20px;
+  width: 100%;
+  border: none;
+  margin-bottom: 1em;
+  box-shadow: 0px 1px 2px #7b807e3b;
+  cursor: pointer;
+}
+.form-wrapper .login-form #edit-submit-google {
+  border-radius: 200px;
+  background-color: #fff;
+  color: #1d1d1d;
+  text-align: left;
+  font-family: Montserrat;
+  font-size: 1em;
+  font-weight: 500;
+  padding: 12px 20px;
+  width: 100%;
+  border: none;
+  margin-bottom: 1em;
+  cursor: pointer;
+  box-shadow: 0px 1px 2px #7b807e3b;
+}
+.form-wrapper .login-form #edit-submit-youtube {
+  border-radius: 200px;
+  background-color: #fff;
+  color: #1d1d1d;
+  text-align: left;
+  font-family: Montserrat;
+  font-size: 1em;
+  font-weight: 500;
+  padding: 12px 20px;
+  width: 100%;
+  border: none;
+  margin-bottom: 1em;
+  cursor: pointer;
+  box-shadow: 0px 1px 2px #7b807e3b;
+}
+.form-wrapper .login-form .form-text {
+  width: 100%;
+  border: none;
+  padding: 15px 10px 15px 10px;
+  border-radius: 4px;
+  color: #1d1d1d;
+  background-color: none;
+  margin: 10px 0 10px 0;
+  font-family: Montserrat;
+  font-size: 1em;
+  font-weight: 500;
+  background-color: none;
+}
+.form-wrapper .form-header {
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 1em;
+  font-weight: 500;
+  color: #b82925;
+  font-size: 2rem;
+  margin: 20px 0px;
+}
+.form-wrapper form {
+  background: none;
+  font-family: Montserrat;
+  font-size: 1em;
+  font-weight: 500;
+}
+.form-wrapper form #edit-name--description {
+  display: none;
+}
+.form-wrapper form #edit-pass--description {
+  display: none;
+}
+.form-wrapper form .js-form-item-name {
+  margin-bottom: 1em;
+}
+.form-wrapper form .js-form-item-pass {
+  margin-bottom: 1em;
+}
+.form-wrapper form input {
+  padding-top: 10px;
+}
+.form-wrapper .redirect-text {
+  font-family: Montserrat;
+  font-size: 1em;
+  font-weight: 500;
+  text-align: center;
+}
+.form-wrapper .redirect-link {
+  color: #b71c1c;
+  font-family: Montserrat;
+  font-size: 1em;
+  font-weight: 500;
+}
+.form-wrapper #block-sitelogo-2 {
+  margin: auto;
+  width: 40%;
+  margin-top: 40px;
+}
+
+@media (min-width: 768px) {
+  .form-wrapper .login-form {
+    width: 400px;
+    padding: 20px;
+  }
+  .form-wrapper #block-sitelogo-2 {
+    margin: auto;
+    width: 9%;
+  }
+  .form-wrapper .form-redirect {
+    width: 400px;
+    margin: auto;
+  }
+}

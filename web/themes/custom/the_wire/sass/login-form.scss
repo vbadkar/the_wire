@@ -1,0 +1,127 @@
+@import "./partials/mixins";
+@import "./partials/variables";
+
+.form-wrapper{
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  .login-form{
+    width: 90%;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 0;
+    #block-the-wire-content{
+      width: 100%;
+      margin: auto;
+    }
+    .or-separator{
+      @include formFont();
+      text-align: center;
+      margin-bottom: 1em;
+    }
+  #edit-submit{
+    border-radius: 200px;
+    background-color: $red;
+    color: #fff;
+    text-align: left;
+    @include formFont();
+    padding: 12px 20px;
+    width: 100%;
+    border: none;
+    margin-bottom: 1em;
+    box-shadow: 0px 1px 2px #7b807e3b;
+    cursor: pointer;
+  }
+  #edit-submit-google{
+    border-radius: 200px;
+    background-color: $white;
+    color: #1d1d1d;
+    text-align: left;
+    @include formFont();
+    padding: 12px 20px;
+    width: 100%;
+    border: none;
+    margin-bottom: 1em;
+    cursor: pointer;
+    box-shadow: 0px 1px 2px #7b807e3b;
+  }
+  #edit-submit-youtube{
+    border-radius: 200px;
+    background-color: $white;
+    color: #1d1d1d;
+    text-align: left;
+    @include formFont();
+    padding: 12px 20px;
+    width: 100%;
+    border: none;
+    margin-bottom: 1em;
+    cursor: pointer;
+    box-shadow: 0px 1px 2px #7b807e3b;
+  }
+  .form-text{
+    @include formInput();
+    @include formFont();
+    background-color: none;
+  }
+}
+  .form-header{
+    text-align: center;
+    @include formFont();
+    color: #b82925;
+    font-size: 2rem;
+    margin: 20px 0px;
+  }
+  form{
+    background:none;
+    @include formFont();
+
+    #edit-name--description{
+      display: none;
+    }
+    #edit-pass--description{
+      display: none;
+    }
+
+    .js-form-item-name{
+      margin-bottom: 1em;
+    }
+    .js-form-item-pass{
+      margin-bottom: 1em;
+    }
+    input{
+      padding-top: 10px;
+    }
+  }
+  .redirect-text{
+    @include formFont();
+    text-align: center;
+  }
+  .redirect-link{
+    color: $red;
+    @include formFont();
+  }
+  #block-sitelogo-2{
+    margin: auto;
+    width: 40%;
+    margin-top: 40px;
+  }
+}
+
+@media (min-width: 768px){
+
+  .form-wrapper{
+    .login-form{
+      width: 400px;
+      padding: 20px;
+    }
+    #block-sitelogo-2{
+      margin: auto;
+      width: 9%;
+    }
+    .form-redirect{
+      width: 400px;
+      margin: auto
+    }
+  }
+}
