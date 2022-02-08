@@ -26,6 +26,8 @@ style:
       css/wire-video.css: {}
       css/trending.css: {}
       css/tek_fog.css: {}
+      css/login-form.css: {}
+      css/signup-form.css: {}
 
 hamburger:
   version: VERSION
@@ -41,3 +43,8 @@ searchButton:
   version: VERSION
   js:
     js/searchButton.js: {}
+
+categoryListAccordian:
+  version: VERSION
+  js:
+    js/accordian.js: {}
