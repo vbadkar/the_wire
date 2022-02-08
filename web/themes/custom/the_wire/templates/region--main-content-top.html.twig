@@ -12,14 +12,14 @@
  * @see template_preprocess_region()
  */
 #}
-{% if content %}
+{# {% if content %} #}
   <div{{ attributes.addClass('main-content-first-section') }}>
     <div class="first-line">
             <div class="featured-news">
               {{ elements.views_block__featured_news_block_1 }}
             </div>
             <div class="top-stories">
-              {{ elements.views_block__top_stories_block_1_2 }}
+              {{ elements.views_block__top_stories_block_1 }}
             </div>
           </div>
           <div class="second-line">
@@ -34,6 +34,6 @@
             <div class="opinion">
               {{ elements.views_block__opinion_block_1 }}
             </div>
-          </div>
+    </div>
   </div>
-{% endif %}
+{# {% endif %} #}
