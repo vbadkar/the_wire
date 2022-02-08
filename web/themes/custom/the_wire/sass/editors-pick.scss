@@ -1,43 +1,45 @@
 @import "./partials/mixins";
 
-#block-views-block-editor-s-pick-block-1--2{
+.editors-pick{
   background-color: #fff;
   margin-bottom: 1em;
   margin-top: 1em;
   box-shadow: 0 1px 5px 0 rgb(0 0 0 / 12%);
-  h2{
-    @include cardTitle();
-  }
-  .editors-pick-section{
-    @include image-title-card();
+  #block-views-block-editor-s-pick-block-1--2{
+    h2{
+      @include cardTitle();
+    }
+    .editors-pick-section{
+      @include image-title-card();
 
-    .editors-pick-image{
-      img{
-        width: 100%;
-        height: 100%;
+      .editors-pick-image{
+        img{
+          width: 100%;
+          height: 100%;
+        }
       }
-    }
-    .editors-pick-content{
-      display: inline-block;
-      padding: 18px 0 18px 0;
-      border-top: 1px solid #e4e4e4;
-      border-bottom: 1px solid #e4e4e4;
-    }
-    .date-category{
-      time{
-        @include newsTime();
+      .editors-pick-content{
+        display: inline-block;
+        padding: 18px 0 18px 0;
+        border-top: 1px solid #e4e4e4;
+        border-bottom: 1px solid #e4e4e4;
       }
-      a{
-        @include newsCategory();
+      .date-category{
+        time{
+          @include newsTime();
+        }
+        a{
+          @include newsCategory();
+        }
       }
-    }
-    .news-title{
-      a{
-        @include newsTitle();
+      .news-title{
+        a{
+          @include newsTitle();
+        }
       }
-    }
-    .news-author{
-      @include newsAuthor();
+      .news-author{
+        @include newsAuthor();
+      }
     }
   }
 }
