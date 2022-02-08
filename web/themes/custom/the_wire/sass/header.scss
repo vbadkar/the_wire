@@ -1,6 +1,6 @@
-#block-languageswitcher{
-  display: none;
-}
+@import "./partials/mixins";
+@import "./partials/variables";
+
 .site-header{
   display: block;
   z-index: 1;
@@ -13,7 +13,8 @@
 }
 .site-header.scroll{
   position: fixed;
-  max-width: 1323px;
+  // max-width: 1323px;
+  width: 100%;
   .nav-bar-account{
     .nav-list-items-account{
       &:first-child{
@@ -29,6 +30,14 @@
   gap: 2em;
   padding: 0;
   height: 60px;
+
+  #block-languageswitcher{
+    display: none;
+  }
+
+  #block-socialicons{
+    display: none;
+  }
 }
 #block-hamburgericon{
   width: 75px;
@@ -39,10 +48,110 @@
     }
   }
 }
+#block-hamburgericon.hide{
+  display: none;
+}
+#block-closebutton.show{
+  width: 75px;
+  display: block;
+  .site-logo-wrapper{
+    #close{
+      cursor: pointer;
+    }
+  }
+}
+#block-closebutton.hide{
+  display: none;
+}
 #block-sitelogo{
   padding: 10px 0;
 }
+.overlay-content-head{
+  display: flex;
+  justify-content: space-between;
 
+  .support-us{
+    .nav-bar-account{
+      padding-left: 30px;
+      .nav-list-items-account{
+        list-style: none;
+        &:first-child{
+          display: none;
+        }
+        &:last-child{
+          display: none;
+        }
+        a{
+          font-weight: 700;
+          text-transform: uppercase;
+          color: #fff;
+          font-size: 14px;
+          text-decoration: none;
+          border-bottom: 0.1em solid #fda4a4;
+        }
+      }
+
+    }
+  }
+  .language-switcher{
+    #block-languageswitcher{
+      .links{
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        padding: 0;
+        li{
+          &:first-child{
+            display: none;
+          }
+          padding-right: 10px;
+          a{
+            font-weight: 700;
+            text-transform: uppercase;
+            color: #fff;
+            font-size: 14px;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+}
+.overlay-content-footer{
+  background-color: #fff;
+  width: 100vw;
+  color: #b71c1c;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  bottom: 0%;
+  font-size: 0.9em;
+  font-weight: normal;
+  font-family: $copyright;
+  .copyright-text{
+    padding-top: 5px;
+  }
+  .copyright-symbol{
+    font-size: 2em;
+    padding: 25px 10px;
+    padding-top: 20px;
+    vertical-align: middle;
+    line-height: 0;
+    display: inline-block;
+  }
+  #block-socialicons--2{
+    .social-icons{
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      .social-icons-items{
+        display: inline;
+        padding: 0;
+        margin: 0;
+      }
+    }
+  }
+}
 @media (min-width: 768px){
   //header
 .region-header{
@@ -51,6 +160,10 @@
   grid-template-columns: 10% 50% 40%;
   justify-content: space-between;
   gap: 0;
+
+  #block-languageswitcher{
+    display: block;
+  }
 }
 .head-wrapper{
   top: 0;
@@ -65,49 +178,52 @@
   height: 100px;
 }
 
-//site logo
-#block-hamburgericon{
-  display: none;
-}
-#block-sitelogo{
-  padding: 30px 0;
-  .site-logo-wrapper{
-    width: 116px;
-    height: 40px;
-    margin: 0;
-    padding: 0;
-    img{
-      width: 116px;
-    height: 40px;
-    }
+  //site logo
+  #block-hamburgericon{
+    display: none;
   }
-}
-
-
-//language switcher
-#block-languageswitcher{
-  display: block;
-  .links{
-    display: flex;
-    gap: 0.8em;
-    list-style: none;
-    padding: 25px;
-    li{
-      a{
-        text-decoration: none;
-        font-size: 18px;
-        color: #1d1d1d;
-        text-transform: capitalize;
-        font-weight: 500;
-        &:hover{
-          color: #b71c1c;
-        }
+  #block-closebutton{
+    display: none;
+  }
+  #block-sitelogo{
+    padding: 30px 0;
+    .site-logo-wrapper{
+      width: 116px;
+      height: 40px;
+      margin: 0;
+      padding: 0;
+      img{
+        width: 116px;
+      height: 40px;
       }
     }
-    .is-active{
-      color: #b71c1c;
-    }
-
   }
-}
+
+
+  //language switcher
+  #block-languageswitcher{
+    display: block;
+    .links{
+      display: flex;
+      gap: 0.8em;
+      list-style: none;
+      padding: 25px;
+      li{
+        a{
+          text-decoration: none;
+          font-size: 18px;
+          color: #1d1d1d;
+          text-transform: capitalize;
+          font-weight: 500;
+          &:hover{
+            color: #b71c1c;
+          }
+        }
+      }
+      .is-active{
+        color: #b71c1c;
+      }
+
+    }
+  }
 }

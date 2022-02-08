@@ -1,7 +1,3 @@
-#block-languageswitcher {
-  display: none;
-}
-
 .site-header {
   display: block;
   z-index: 1;
@@ -15,7 +11,7 @@
 
 .site-header.scroll {
   position: fixed;
-  max-width: 1323px;
+  width: 100%;
 }
 .site-header.scroll .nav-bar-account .nav-list-items-account:first-child {
   display: none;
@@ -29,6 +25,12 @@
   padding: 0;
   height: 60px;
 }
+.region-header #block-languageswitcher {
+  display: none;
+}
+.region-header #block-socialicons {
+  display: none;
+}
 
 #block-hamburgericon {
   width: 75px;
@@ -38,8 +40,102 @@
   cursor: pointer;
 }
 
+#block-hamburgericon.hide {
+  display: none;
+}
+
+#block-closebutton.show {
+  width: 75px;
+  display: block;
+}
+#block-closebutton.show .site-logo-wrapper #close {
+  cursor: pointer;
+}
+
+#block-closebutton.hide {
+  display: none;
+}
+
 #block-sitelogo {
   padding: 10px 0;
+}
+
+.overlay-content-head {
+  display: flex;
+  justify-content: space-between;
+}
+.overlay-content-head .support-us .nav-bar-account {
+  padding-left: 30px;
+}
+.overlay-content-head .support-us .nav-bar-account .nav-list-items-account {
+  list-style: none;
+}
+.overlay-content-head .support-us .nav-bar-account .nav-list-items-account:first-child {
+  display: none;
+}
+.overlay-content-head .support-us .nav-bar-account .nav-list-items-account:last-child {
+  display: none;
+}
+.overlay-content-head .support-us .nav-bar-account .nav-list-items-account a {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 14px;
+  text-decoration: none;
+  border-bottom: 0.1em solid #fda4a4;
+}
+.overlay-content-head .language-switcher #block-languageswitcher .links {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+}
+.overlay-content-head .language-switcher #block-languageswitcher .links li {
+  padding-right: 10px;
+}
+.overlay-content-head .language-switcher #block-languageswitcher .links li:first-child {
+  display: none;
+}
+.overlay-content-head .language-switcher #block-languageswitcher .links li a {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.overlay-content-footer {
+  background-color: #fff;
+  width: 100vw;
+  color: #b71c1c;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  bottom: 0%;
+  font-size: 0.9em;
+  font-weight: normal;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+.overlay-content-footer .copyright-text {
+  padding-top: 5px;
+}
+.overlay-content-footer .copyright-symbol {
+  font-size: 2em;
+  padding: 25px 10px;
+  padding-top: 20px;
+  vertical-align: middle;
+  line-height: 0;
+  display: inline-block;
+}
+.overlay-content-footer #block-socialicons--2 .social-icons {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.overlay-content-footer #block-socialicons--2 .social-icons .social-icons-items {
+  display: inline;
+  padding: 0;
+  margin: 0;
 }
 
 @media (min-width: 768px) {
@@ -49,6 +145,9 @@
     grid-template-columns: 10% 50% 40%;
     justify-content: space-between;
     gap: 0;
+  }
+  .region-header #block-languageswitcher {
+    display: block;
   }
 
   .head-wrapper {
@@ -66,6 +165,10 @@
   }
 
   #block-hamburgericon {
+    display: none;
+  }
+
+  #block-closebutton {
     display: none;
   }
 
