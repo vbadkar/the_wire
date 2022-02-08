@@ -1,8 +1,18 @@
-const hamburger = document.querySelector('#Layer_1');
+const hamburger = document.querySelector('#block-hamburgericon');
+const closeButton = document.querySelector('#block-closebutton');
 const list = document.querySelector('.nav-overlay');
-hamburger.classList.add('show');
+
 hamburger.addEventListener('click', function(){
     list.classList.toggle('show');
+    hamburger.classList.add('hide');
     hamburger.classList.remove('show');
-    hamburger.classList.toggle('hide');
+    closeButton.classList.add('show');
+    closeButton.classList.remove('hide');
+});
+closeButton.addEventListener('click', function(){
+  list.classList.toggle('show');
+  hamburger.classList.add('show');
+  hamburger.classList.remove('hide');
+  closeButton.classList.add('hide');
+  closeButton.classList.remove('show');
 });
