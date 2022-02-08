@@ -77,3 +77,19 @@
   letter-spacing: .07em;
   top: -6px;
 }
+
+@mixin formFont {
+  font-family: Montserrat;
+  font-size: 1em;
+  font-weight: 500;
+}
+
+@mixin formInput {
+  width: 100%;
+  border: none;
+  padding: 15px 10px 15px 10px;
+  border-radius: 4px;
+  color: #1d1d1d;
+  background-color: none;
+  margin: 10px 0 10px 0;
+}
