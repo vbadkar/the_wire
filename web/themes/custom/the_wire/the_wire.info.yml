@@ -9,6 +9,7 @@ libraries:
  - the_wire/hamburger
  - the_wire/scrollNav
  - the_wire/searchButton
+ - the_wire/categoryListAccordian
 
 regions:
   header: Header
@@ -16,6 +17,7 @@ regions:
   main_content_top: 'Main content Top'
   main_content_bottom: 'Main content Bottom'
   the_wire_video: 'The Wire Video'
+  main_content_middle: 'Main content middle'
   sidebar_first: 'Sidebar First'
   sidebar_second: 'Sidebar Second'
   footer: 'Footer'
