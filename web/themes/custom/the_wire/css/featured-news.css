@@ -1,11 +1,10 @@
-.featured-news {
-  margin-bottom: 1em;
-  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.12);
-}
 .featured-news .views-row {
   background-color: #fff;
-  padding: 5px;
+  padding: 3px;
   position: relative;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.12);
 }
 .featured-news .views-field-field-category {
   position: absolute;
@@ -51,7 +50,6 @@
 }
 .featured-news .views-field-field-news-image img {
   width: 100%;
-  height: 347px;
 }
 
 @media (max-width: 320px) {
