@@ -1,0 +1,15 @@
+name: Intercom
+type: module
+description: Module to connect to the intercom app
+# core: 8.x
+package: Web services
+dependencies:
+  - drupal:options
+configure: intercom.settings
+
+# Information added by Drupal.org packaging script on 2018-04-30
+version: '8.x-1.1'
+# core: '8.x'
+core_version_requirement: '9.x'
+project: 'intercom'
+datestamp: 1525084995
