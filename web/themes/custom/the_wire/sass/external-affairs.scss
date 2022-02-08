@@ -1,39 +1,41 @@
 @import "./partials/mixins";
-#block-views-block-external-affairs-block-1--2{
+.external-affairs{
   background-color: #fff;
   margin-bottom: 1em;
   padding: 10.5px;
   box-shadow: 0 1px 5px 0 rgb(0 0 0 / 12%);
-  h2{
-    @include cardTitle();
-    padding: 7.5px 9.5px;
-  }
-  .views-row{
-    @include cardBoxShadow();
-    .external-affairs-section{
-      .external-affairs-content{
-        padding: 18px;
-        .news-title{
-          a{
-            @include newsTitle();
+  #block-views-block-external-affairs-block-1--2{
+    h2{
+      @include cardTitle();
+      padding: 7.5px 9.5px;
+    }
+    .views-row{
+      @include cardBoxShadow();
+      .external-affairs-section{
+        .external-affairs-content{
+          padding: 18px;
+          .news-title{
+            a{
+              @include newsTitle();
+            }
+          }
+          .news-author{
+            @include newsAuthor();
+          }
+          .date-category{
+            time{
+              @include newsTime();
+            }
+            a{
+              @include newsCategory();
+            }
           }
         }
-        .news-author{
-          @include newsAuthor();
-        }
-        .date-category{
-          time{
-            @include newsTime();
+        .external-affairs-image{
+          img{
+            width: 100%;
+            height: 200px;
           }
-          a{
-            @include newsCategory();
-          }
-        }
-      }
-      .external-affairs-image{
-        img{
-          width: 100%;
-          height: 200px;
         }
       }
     }
