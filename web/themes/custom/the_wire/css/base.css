@@ -8,6 +8,7 @@ body {
   background-color: #e4e4e4;
   margin: 0 auto;
   padding: 0;
+  max-width: 1346px;
 }
 
 @media (max-width: 320px) {
