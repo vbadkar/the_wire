@@ -21,8 +21,12 @@
           }
           .news-author{
             @include newsAuthor();
+            span{
+              @include newsAuthoredBy();
+            }
           }
           .date-category{
+            @include newsTime();
             time{
               @include newsTime();
             }

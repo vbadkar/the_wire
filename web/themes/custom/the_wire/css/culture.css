@@ -37,6 +37,19 @@
   padding-right: 0;
   font-style: normal;
 }
+.culture #block-views-block-culture-block-1--2 .views-row .culture-section .culture-content .news-author span {
+  line-height: 1.5;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-weight: normal;
+}
+.culture #block-views-block-culture-block-1--2 .views-row .culture-section .culture-content .date-category {
+  color: #9b9292;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 14px;
+  padding-right: 10px;
+  letter-spacing: 0.7px;
+}
 .culture #block-views-block-culture-block-1--2 .views-row .culture-section .culture-content .date-category time {
   color: #9b9292;
   text-transform: uppercase;
