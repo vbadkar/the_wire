@@ -220,7 +220,7 @@ $databases = [];
  * directory in the public files path. The setting below allows you to set
  * its location.
  */
-# $settings['config_sync_directory'] = '/directory/outside/webroot';
+$settings['config_sync_directory'] = 'web/sites/default/config';
 
 /**
  * Settings:
@@ -783,7 +783,7 @@ $databases['default']['default'] = array (
   'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
   'driver' => 'mysql',
 );
-$settings['config_sync_directory'] = 'sites/default/files/config_hB6-yPZhuDsqGs963MoNrb2FVXYvr0B5zZffeefOvUZO9dLck_w48bjJ_9n9y318tvbx9k_CRQ/sync';
+$settings['config_sync_directory'] = 'sites/default/config';
 
 if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
   include $app_root . '/' . $site_path . '/settings.local.php';

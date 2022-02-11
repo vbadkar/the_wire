@@ -1,0 +1,15 @@
+uuid: 3c9ee2fb-6530-4505-b7b0-7f7c49bbb8f7
+langcode: en
+status: true
+dependencies: {  }
+name: featured_news_image_320
+label: 'Featured News Image (278x385)'
+effects:
+  a1fd26ce-c527-4491-9f68-6610efe32313:
+    uuid: a1fd26ce-c527-4491-9f68-6610efe32313
+    id: image_scale
+    weight: 3
+    data:
+      width: 278
+      height: 385
+      upscale: true

@@ -1,0 +1,29 @@
+uuid: af906982-7f99-4353-a817-4677142333a1
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.tek_fog
+  module:
+    - system
+    - views
+  theme:
+    - the_wire
+id: views_block__tek_fog_block_1
+theme: the_wire
+region: main_content_top
+weight: -14
+provider: null
+plugin: 'views_block:tek_fog-block_1'
+settings:
+  id: 'views_block:tek_fog-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

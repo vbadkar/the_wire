@@ -1,0 +1,22 @@
+uuid: 76058621-3dae-41a7-a7ed-cd696d244267
+langcode: en
+status: true
+dependencies: {  }
+name: opinion_image_304x240_
+label: 'Opinion image (304x240)'
+effects:
+  10941cfe-aa65-49a5-abf0-334a6d46bc2a:
+    uuid: 10941cfe-aa65-49a5-abf0-334a6d46bc2a
+    id: image_scale_and_crop
+    weight: -10
+    data:
+      width: 304
+      height: 240
+      anchor: center-center
+  075a2ca7-ca2d-45ef-b08c-3862b36efa07:
+    uuid: 075a2ca7-ca2d-45ef-b08c-3862b36efa07
+    id: image_resize
+    weight: 2
+    data:
+      width: 304
+      height: 240

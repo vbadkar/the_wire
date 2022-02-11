@@ -1,0 +1,29 @@
+uuid: 030b47d4-71cb-49ae-aff5-49af351d7a01
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.side-bar-menu
+  module:
+    - system
+  theme:
+    - the_wire
+id: sidebarmenu
+theme: the_wire
+region: sidebar_second
+weight: -13
+provider: null
+plugin: 'system_menu_block:side-bar-menu'
+settings:
+  id: 'system_menu_block:side-bar-menu'
+  label: 'Side bar menu'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: '/node/*'

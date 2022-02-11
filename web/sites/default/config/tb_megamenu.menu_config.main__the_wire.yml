@@ -1,0 +1,13 @@
+uuid: 8778928e-339a-4e8f-b5ff-0e41bf03a0df
+langcode: en
+status: true
+dependencies:
+  theme:
+    - the_wire
+  menu:
+    - main
+id: main__the_wire
+menu: main
+theme: the_wire
+block_config: '{"animation":"none","duration":400,"delay":200,"style":"","auto-arrow":"1","always-show-submenu":"1","number-columns":null}'
+menu_config: '{"menu_link_content:c306b059-6656-4ba7-ae76-6b313715b000":{"rows_content":[],"submenu_config":{"width":"","class":"","group":"0"},"item_config":{"class":"","xicon":"","caption":"","alignsub":"","group":"0","hidewcol":"0","hidesub":"0","label":""}},"menu_link_content:4060d94f-6566-4861-805c-3f1c4d2a0351":{"rows_content":[],"submenu_config":{"width":"","class":"","group":"0"},"item_config":{"class":"","xicon":"","caption":"","alignsub":"","group":"0","hidewcol":"0","hidesub":"0","label":""}},"menu_link_content:89899262-2ffb-477c-bdd4-2a9b505fc545":{"rows_content":[],"submenu_config":{"width":"","class":"","group":"0"},"item_config":{"class":"","xicon":"","caption":"","alignsub":"","group":"0","hidewcol":"0","hidesub":"0","label":""}},"menu_link_content:600a2c95-d22a-46ad-a50c-be416b59ba1f":{"rows_content":[],"submenu_config":{"width":"","class":"","group":"0"},"item_config":{"class":"","xicon":"","caption":"","alignsub":"","group":"0","hidewcol":"0","hidesub":"0","label":""}},"menu_link_content:6533e013-a508-4674-ad4d-abbb5a255d18":{"rows_content":[],"submenu_config":{"width":"","class":"","group":"0"},"item_config":{"class":"","xicon":"","caption":"","alignsub":"","group":"0","hidewcol":"0","hidesub":"0","label":""}},"menu_link_content:57234c95-cf92-46ce-a39b-6f93306e8d80":{"rows_content":[],"submenu_config":{"width":"","class":"","group":"0"},"item_config":{"class":"","xicon":"","caption":"","alignsub":"","group":"0","hidewcol":"0","hidesub":"0","label":""}},"menu_link_content:04ece19b-55e8-44cb-9a7e-e39f82746efe":{"rows_content":[],"submenu_config":{"width":"","class":"","group":"0"},"item_config":{"class":"","xicon":"","caption":"","alignsub":"","group":"0","hidewcol":"0","hidesub":"0","label":""}},"menu_link_content:351955e4-bfb0-46aa-904c-70530109032e":{"rows_content":[],"submenu_config":{"width":"","class":"","group":"0"},"item_config":{"class":"","xicon":"","caption":"","alignsub":"","group":"0","hidewcol":"0","hidesub":"0","label":""}},"menu_link_content:129e6463-165c-4815-8538-59c26d6b3e80":{"rows_content":[],"submenu_config":{"width":"","class":"","group":"0"},"item_config":{"class":"","xicon":"","caption":"","alignsub":"","group":"0","hidewcol":"0","hidesub":"0","label":""}}}'

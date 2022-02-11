@@ -1,0 +1,25 @@
+uuid: 9dfec3c9-c7fd-488d-8da8-272b7b991e1f
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:intercom_floating_widget:d17f2086-27f1-4c5e-b285-bd800cd916a4'
+  module:
+    - block_content
+  theme:
+    - the_wire
+id: intercom
+theme: the_wire
+region: footer
+weight: 0
+provider: null
+plugin: 'block_content:d17f2086-27f1-4c5e-b285-bd800cd916a4'
+settings:
+  id: 'block_content:d17f2086-27f1-4c5e-b285-bd800cd916a4'
+  label: Intercom
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

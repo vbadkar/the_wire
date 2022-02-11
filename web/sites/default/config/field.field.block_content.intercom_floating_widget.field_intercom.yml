@@ -1,0 +1,42 @@
+uuid: 64fffb04-ab34-463e-88e2-bca970a1e368
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.intercom_floating_widget
+    - field.storage.block_content.field_intercom
+  module:
+    - iframe
+id: block_content.intercom_floating_widget.field_intercom
+field_name: field_intercom
+entity_type: block_content
+bundle: intercom_floating_widget
+label: Intercom
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    url: 'https://c1ace9925676337b16dfa115c2807f05.safeframe.googlesyndication.com/safeframe/1-0-38/html/container.htmlhttps://c1ace9925676337b16dfa115c2807f05.safeframe.googlesyndication.com/safeframe/1-0-38/html/container.html'
+    title: ''
+    class: ''
+    frameborder: '0'
+    scrolling: auto
+    transparency: '0'
+    allowfullscreen: '0'
+    tokensupport: '0'
+    width: '500'
+    height: '500'
+    expose_class: false
+default_value_callback: ''
+settings:
+  title: null
+  class: ''
+  frameborder: null
+  scrolling: null
+  transparency: null
+  allowfullscreen: '0'
+  tokensupport: null
+  width: null
+  height: null
+field_type: iframe

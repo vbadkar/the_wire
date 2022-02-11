@@ -1,0 +1,8 @@
+uuid: 5e2a592e-fea4-42db-a132-c6e9f98ec648
+langcode: en
+status: true
+dependencies: {  }
+id: intercom_floating_widget
+label: 'Intercom floating widget'
+revision: 0
+description: ''

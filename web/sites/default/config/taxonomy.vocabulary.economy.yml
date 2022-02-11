@@ -1,0 +1,8 @@
+uuid: fba8592c-e6c2-4f5e-baa1-4d3e569d1b7a
+langcode: en
+status: true
+dependencies: {  }
+name: Economy
+vid: economy
+description: ''
+weight: 0

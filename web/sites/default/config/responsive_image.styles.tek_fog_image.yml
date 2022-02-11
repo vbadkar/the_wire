@@ -1,0 +1,18 @@
+uuid: b6f0fa6d-b89e-4b18-be02-604b6de1c824
+langcode: en
+status: true
+dependencies:
+  config:
+    - image.style.tek_fog_x320px
+  theme:
+    - the_wire
+id: tek_fog_image
+label: 'Tek Fog image'
+image_style_mappings:
+  -
+    image_mapping_type: image_style
+    image_mapping: tek_fog_x320px
+    breakpoint_id: the_wire.mobile2
+    multiplier: 1x
+breakpoint_group: the_wire
+fallback_image_style: '_original image_'

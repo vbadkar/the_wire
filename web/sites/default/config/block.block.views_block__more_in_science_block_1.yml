@@ -1,0 +1,24 @@
+uuid: 0a9664c9-353b-409a-afd2-bc6a62fe69d8
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.more_in_science
+  module:
+    - views
+  theme:
+    - the_wire
+id: views_block__more_in_science_block_1
+theme: the_wire
+region: main_content_bottom
+weight: -12
+provider: null
+plugin: 'views_block:more_in_science-block_1'
+settings:
+  id: 'views_block:more_in_science-block_1'
+  label: 'From Science'
+  label_display: visible
+  provider: views
+  views_label: 'From Science'
+  items_per_page: none
+visibility: {  }

@@ -1,0 +1,106 @@
+uuid: 6fcec6eb-f3d3-4859-b0d4-c45aa1020c08
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.news.body
+    - field.field.node.news.field_add_to_trending_
+    - field.field.node.news.field_author_name
+    - field.field.node.news.field_category
+    - field.field.node.news.field_date_and_time
+    - field.field.node.news.field_news_image
+    - field.field.node.news.field_top_story_
+    - field.field.node.news.field_video
+    - node.type.news
+  module:
+    - datetime
+    - iframe
+    - svg_image
+    - text
+    - user
+id: node.news.default
+targetEntityType: node
+bundle: news
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_add_to_trending_:
+    type: boolean
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    weight: 6
+    region: content
+  field_author_name:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_category:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_date_and_time:
+    type: datetime_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: medium
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_news_image:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_top_story_:
+    type: boolean
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    weight: 7
+    region: content
+  field_video:
+    type: iframe_default
+    label: above
+    settings:
+      url: ''
+      title: ''
+      class: ''
+      frameborder: '0'
+      scrolling: ''
+      transparency: '0'
+      allowfullscreen: '0'
+      tokensupport: '0'
+      width: ''
+      height: ''
+    third_party_settings: {  }
+    weight: 5
+    region: content
+hidden:
+  langcode: true
+  links: true

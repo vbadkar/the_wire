@@ -1,0 +1,11 @@
+uuid: 1eb701a2-1b47-4520-bcf0-de4bbf7efba8
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.editor_s_pick
+id: taxonomy_term.editor_s_pick
+target_entity_type_id: taxonomy_term
+target_bundle: editor_s_pick
+default_langcode: site_default
+language_alterable: false

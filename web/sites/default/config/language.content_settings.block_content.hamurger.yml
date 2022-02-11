@@ -1,0 +1,11 @@
+uuid: 32936db7-d8dc-4a41-84a7-fbee04460ead
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.hamurger
+id: block_content.hamurger
+target_entity_type_id: block_content
+target_bundle: hamurger
+default_langcode: site_default
+language_alterable: false

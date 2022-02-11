@@ -1,0 +1,25 @@
+uuid: f77c4eeb-343e-4582-874a-0ca9334e85b7
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:a7b70c6e-2c41-4102-b0c0-27c939b5ba10'
+  module:
+    - block_content
+  theme:
+    - the_wire
+id: search
+theme: the_wire
+region: main_menu
+weight: -15
+provider: null
+plugin: 'block_content:a7b70c6e-2c41-4102-b0c0-27c939b5ba10'
+settings:
+  id: 'block_content:a7b70c6e-2c41-4102-b0c0-27c939b5ba10'
+  label: Search
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
