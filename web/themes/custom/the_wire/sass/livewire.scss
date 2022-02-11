@@ -23,6 +23,7 @@
             @include newsAuthor();
           }
           .date-category{
+            @include newsTime();
             time{
               @include newsTime();
             }
