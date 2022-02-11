@@ -33,6 +33,13 @@
 }
 #block-views-block-tek-fog-block-1--2 .tek-fog-section .tek-fog-content .date-category {
   display: flex;
+  color: #9d9d9d;
+  color: #9b9292;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 14px;
+  padding-right: 10px;
+  letter-spacing: 0.7px;
 }
 #block-views-block-tek-fog-block-1--2 .tek-fog-section .tek-fog-content .date-category time {
   color: #9b9292;

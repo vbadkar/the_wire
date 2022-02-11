@@ -25,6 +25,8 @@
       }
       .date-category{
         display: flex;
+        color: #9d9d9d;
+        @include newsTime();
         time{
           @include newsTime();
         }
