@@ -1,4 +1,4 @@
-.featured-news .views-row {
+.featured-news-wrapper {
   background-color: #fff;
   padding: 3px;
   position: relative;
@@ -6,12 +6,12 @@
   height: 100%;
   box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.12);
 }
-.featured-news .views-field-field-category {
+.featured-news-wrapper .views-field-field-category {
   position: absolute;
   top: 50%;
   padding: 1rem;
 }
-.featured-news .views-field-field-category a {
+.featured-news-wrapper .views-field-field-category a {
   text-decoration: none;
   padding: 2px 5px;
   color: #fff;
@@ -23,12 +23,12 @@
   letter-spacing: 2px;
   background-color: #b71c1c;
 }
-.featured-news .views-field-title {
+.featured-news-wrapper .views-field-title {
   position: absolute;
   top: 60%;
   padding: 1rem;
 }
-.featured-news .views-field-title a {
+.featured-news-wrapper .views-field-title a {
   color: #000;
   background-color: #fff;
   text-decoration: none;
@@ -36,7 +36,7 @@
   padding: 0 5px 0 5px;
   text-align: center;
 }
-.featured-news .views-field-field-author-name {
+.featured-news-wrapper .views-field-field-author-name {
   position: absolute;
   top: 70%;
   padding: 1rem;
@@ -44,12 +44,16 @@
   font-size: 14px;
   font-weight: 400;
 }
-.featured-news .views-field-field-author-name span {
+.featured-news-wrapper .views-field-field-author-name span {
   color: #9d9d9d;
   font-size: 0.9em;
 }
-.featured-news .views-field-field-news-image img {
+.featured-news-wrapper .views-field-field-news-image {
+  height: 340px;
+}
+.featured-news-wrapper .views-field-field-news-image img {
   width: 100%;
+  height: 340px;
 }
 
 @media (max-width: 320px) {
