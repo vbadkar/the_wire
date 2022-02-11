@@ -47,6 +47,15 @@
   padding-right: 0;
   font-style: normal;
 }
+.the-wire-video #block-views-block-the-wire-video-block-1 .views-row .wire-section .wire-content .date-category {
+  color: #9d9d9d;
+  color: #9b9292;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 14px;
+  padding-right: 10px;
+  letter-spacing: 0.7px;
+}
 .the-wire-video #block-views-block-the-wire-video-block-1 .views-row .wire-section .wire-content .date-category time {
   color: #9b9292;
   text-transform: uppercase;
@@ -70,7 +79,6 @@
 }
 .the-wire-video #block-views-block-the-wire-video-block-1 .views-row .wire-section .wire-video div {
   width: 100%;
-  padding: 0px;
 }
 .the-wire-video #block-views-block-the-wire-video-block-1 .views-row .wire-section .wire-video div iframe {
   width: 100%;
