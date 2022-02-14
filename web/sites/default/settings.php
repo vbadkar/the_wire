@@ -788,3 +788,5 @@ $settings['config_sync_directory'] = 'sites/default/config';
 if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
   include $app_root . '/' . $site_path . '/settings.local.php';
 }
+
+$settings['intercom_access_token'] = "dG9rOjBhOTU2MTk2X2M2OTdfNGVhOV9iNmVlX2VmYjQ0ZWJiMzIxMDoxOjA=";
