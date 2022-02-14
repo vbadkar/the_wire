@@ -1,0 +1,8 @@
+uuid: c0aeb8cf-6081-4e72-8081-36126257c9b2
+langcode: en
+status: true
+dependencies: {  }
+name: Culture
+vid: culture
+description: ''
+weight: 0

@@ -1,0 +1,33 @@
+uuid: 63163dd2-0594-48e7-9a66-b1d995d76a23
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.intercom_floating_widget
+    - field.field.block_content.intercom_floating_widget.field_intercom
+  module:
+    - iframe
+id: block_content.intercom_floating_widget.default
+targetEntityType: block_content
+bundle: intercom_floating_widget
+mode: default
+content:
+  field_intercom:
+    type: iframe_default
+    label: above
+    settings:
+      url: ''
+      title: ''
+      class: ''
+      frameborder: '0'
+      scrolling: ''
+      transparency: '0'
+      allowfullscreen: '0'
+      tokensupport: '0'
+      width: ''
+      height: ''
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  langcode: true

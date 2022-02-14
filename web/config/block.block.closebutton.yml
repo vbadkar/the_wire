@@ -1,0 +1,25 @@
+uuid: 0bf8b4d6-a086-47f3-8fc3-ae78e8005bb0
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:99f0d607-9849-44ba-8a4c-13b39ac7d443'
+  module:
+    - block_content
+  theme:
+    - the_wire
+id: closebutton
+theme: the_wire
+region: header
+weight: -15
+provider: null
+plugin: 'block_content:99f0d607-9849-44ba-8a4c-13b39ac7d443'
+settings:
+  id: 'block_content:99f0d607-9849-44ba-8a4c-13b39ac7d443'
+  label: 'Close button'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

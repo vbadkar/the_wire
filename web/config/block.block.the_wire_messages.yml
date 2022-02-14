@@ -1,0 +1,22 @@
+uuid: 3823bc91-5263-485f-8c94-b589324a040b
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - the_wire
+_core:
+  default_config_hash: KC12e0aosUnBBs5bd374JVcQjJaFNOSIHzu0dUGf22o
+id: the_wire_messages
+theme: the_wire
+region: main_content_middle
+weight: -15
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

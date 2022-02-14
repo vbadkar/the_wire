@@ -1,0 +1,15 @@
+uuid: bf071e95-a186-44eb-898e-37784c8f6af7
+langcode: en
+status: true
+dependencies: {  }
+name: tek_fog_x320px
+label: 'Tek Fog (425x250)'
+effects:
+  38c81b61-bb93-4f04-817f-c14ada72ddeb:
+    uuid: 38c81b61-bb93-4f04-817f-c14ada72ddeb
+    id: image_scale
+    weight: 1
+    data:
+      width: 425
+      height: 250
+      upscale: false

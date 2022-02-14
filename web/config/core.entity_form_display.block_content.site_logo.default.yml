@@ -1,0 +1,27 @@
+uuid: 5a932154-6b56-4acd-8da4-25cddd0d63e3
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.site_logo
+id: block_content.site_logo.default
+targetEntityType: block_content
+bundle: site_logo
+mode: default
+content:
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+hidden: {  }

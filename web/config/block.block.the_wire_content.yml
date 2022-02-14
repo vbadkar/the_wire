@@ -1,0 +1,26 @@
+uuid: e674f79a-94ef-4420-856a-1d9203a2207d
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - the_wire
+_core:
+  default_config_hash: kigu8pTxXt1qGR2NJ5HHdC4G2G1wsDrIjLPKBT5wUBc
+id: the_wire_content
+theme: the_wire
+region: main_content_middle
+weight: -17
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '/user/*'

@@ -1,0 +1,25 @@
+uuid: c4866739-5600-433a-9dbe-b96590da690d
+langcode: en
+status: true
+dependencies:
+  module:
+    - social_auth
+    - system
+  theme:
+    - the_wire
+id: socialauthlogin
+theme: the_wire
+region: main_content_middle
+weight: 0
+provider: null
+plugin: social_auth_login
+settings:
+  id: social_auth_login
+  label: 'Social Auth Login'
+  label_display: '0'
+  provider: social_auth
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '/user/*'

@@ -1,0 +1,29 @@
+uuid: fc89f738-b76e-4fa3-b9f3-9084325163c0
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.the_wire_video
+  module:
+    - system
+    - views
+  theme:
+    - the_wire
+id: views_block__the_wire_video_block_1
+theme: the_wire
+region: the_wire_video
+weight: -16
+provider: null
+plugin: 'views_block:the_wire_video-block_1'
+settings:
+  id: 'views_block:the_wire_video-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: '/user/*'

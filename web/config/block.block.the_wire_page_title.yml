@@ -1,0 +1,20 @@
+uuid: f1d7a748-cfe4-4053-8667-68e496283db2
+langcode: en
+status: false
+dependencies:
+  theme:
+    - the_wire
+_core:
+  default_config_hash: ItFhhiUOoeR7oIq73ZaCV7PAYrOwXZ-9fazMzF5DJXM
+id: the_wire_page_title
+theme: the_wire
+region: header
+weight: -9
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

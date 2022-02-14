@@ -1,0 +1,28 @@
+uuid: ad3dbe2d-de70-4d0b-964d-d2acce4c7992
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.search_page
+  module:
+    - system
+    - views
+  theme:
+    - the_wire
+id: exposedformsearch_pagepage_1
+theme: the_wire
+region: main_content_middle
+weight: -14
+provider: null
+plugin: 'views_exposed_filter_block:search_page-page_1'
+settings:
+  id: 'views_exposed_filter_block:search_page-page_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /search-page

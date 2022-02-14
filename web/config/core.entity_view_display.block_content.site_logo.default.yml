@@ -1,0 +1,13 @@
+uuid: 2e3420a3-ea14-4bff-af70-6bd07a6d5846
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.site_logo
+id: block_content.site_logo.default
+targetEntityType: block_content
+bundle: site_logo
+mode: default
+content: {  }
+hidden:
+  langcode: true

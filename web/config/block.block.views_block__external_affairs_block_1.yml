@@ -1,0 +1,24 @@
+uuid: a0311fae-3fce-4218-9c76-e2a60ddb9b80
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.external_affairs
+  module:
+    - views
+  theme:
+    - the_wire
+id: views_block__external_affairs_block_1
+theme: the_wire
+region: main_content_bottom
+weight: -8
+provider: null
+plugin: 'views_block:external_affairs-block_1'
+settings:
+  id: 'views_block:external_affairs-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility: {  }

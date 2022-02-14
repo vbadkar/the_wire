@@ -1,0 +1,20 @@
+uuid: c54dbe2f-75d3-4937-93a9-a0083cef1b5b
+langcode: en
+status: false
+dependencies:
+  theme:
+    - the_wire
+_core:
+  default_config_hash: XRdb8LpbArVA6CpuuEZxzi50JIdjsJaCCZ5o3fH0Blk
+id: the_wire_local_actions
+theme: the_wire
+region: header
+weight: -7
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }
