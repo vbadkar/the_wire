@@ -4,17 +4,17 @@
   padding: 10.5px;
   box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.12);
 }
-.opinion #block-views-block-opinion-block-1--2 .views-row {
+.opinion #block-views-block-opinion-block-1 .views-row {
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
   margin-bottom: 1em;
 }
-.opinion #block-views-block-opinion-block-1--2 .opinion-section {
+.opinion #block-views-block-opinion-block-1 .opinion-section {
   display: block;
 }
-.opinion #block-views-block-opinion-block-1--2 .opinion-section .opinion-content {
+.opinion #block-views-block-opinion-block-1 .opinion-section .opinion-content {
   padding: 18px;
 }
-.opinion #block-views-block-opinion-block-1--2 .opinion-section .opinion-content .news-author {
+.opinion #block-views-block-opinion-block-1 .opinion-section .opinion-content .news-author {
   color: #9d9d9d;
   margin-top: 25px;
   font-size: 0.9em;
@@ -22,7 +22,7 @@
   padding-right: 0;
   font-style: normal;
 }
-.opinion #block-views-block-opinion-block-1--2 .opinion-section .opinion-content .news-title a {
+.opinion #block-views-block-opinion-block-1 .opinion-section .opinion-content .news-title a {
   text-decoration: none;
   font-size: 1em;
   color: #000;
@@ -30,7 +30,7 @@
   margin: 10px 0 10px 0;
   text-align: left;
 }
-.opinion #block-views-block-opinion-block-1--2 .opinion-section .opinion-content .date-category {
+.opinion #block-views-block-opinion-block-1 .opinion-section .opinion-content .date-category {
   display: flex;
   color: #9d9d9d;
   color: #9b9292;
@@ -40,7 +40,7 @@
   padding-right: 10px;
   letter-spacing: 0.7px;
 }
-.opinion #block-views-block-opinion-block-1--2 .opinion-section .opinion-content .date-category time {
+.opinion #block-views-block-opinion-block-1 .opinion-section .opinion-content .date-category time {
   color: #9b9292;
   text-transform: uppercase;
   font-weight: 300;
@@ -48,7 +48,7 @@
   padding-right: 10px;
   letter-spacing: 0.7px;
 }
-.opinion #block-views-block-opinion-block-1--2 .opinion-section .opinion-content .date-category a {
+.opinion #block-views-block-opinion-block-1 .opinion-section .opinion-content .date-category a {
   background-color: #b71c1c;
   padding: 2px 5px;
   color: #fff;
@@ -61,7 +61,7 @@
   letter-spacing: 2px;
   text-decoration: none;
 }
-.opinion #block-views-block-opinion-block-1--2 h2 {
+.opinion #block-views-block-opinion-block-1 h2 {
   color: #939393;
   font-size: 17px;
   font-weight: 500;
@@ -71,7 +71,7 @@
   width: 100%;
   padding: 7.5px 9.5px;
 }
-.opinion #block-views-block-opinion-block-1--2 img {
+.opinion #block-views-block-opinion-block-1 img {
   width: 100%;
   height: 200px;
 }

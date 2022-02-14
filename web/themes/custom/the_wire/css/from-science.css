@@ -4,7 +4,7 @@
   padding: 10.5px;
   box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.12);
 }
-.from-science #block-views-block-more-in-science-block-1--2 h2 {
+.from-science #block-views-block-more-in-science-block-1 h2 {
   color: #939393;
   font-size: 17px;
   font-weight: 500;
@@ -14,14 +14,14 @@
   width: 100%;
   padding: 7.5px 9.5px;
 }
-.from-science #block-views-block-more-in-science-block-1--2 .views-row {
+.from-science #block-views-block-more-in-science-block-1 .views-row {
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
   margin-bottom: 1em;
 }
-.from-science #block-views-block-more-in-science-block-1--2 .views-row .from-science-section .from-science-content {
+.from-science #block-views-block-more-in-science-block-1 .views-row .from-science-section .from-science-content {
   padding: 18px;
 }
-.from-science #block-views-block-more-in-science-block-1--2 .views-row .from-science-section .from-science-content .date-category {
+.from-science #block-views-block-more-in-science-block-1 .views-row .from-science-section .from-science-content .date-category {
   display: flex;
   color: #9b9292;
   text-transform: uppercase;
@@ -30,7 +30,7 @@
   padding-right: 10px;
   letter-spacing: 0.7px;
 }
-.from-science #block-views-block-more-in-science-block-1--2 .views-row .from-science-section .from-science-content .date-category time {
+.from-science #block-views-block-more-in-science-block-1 .views-row .from-science-section .from-science-content .date-category time {
   color: #9b9292;
   text-transform: uppercase;
   font-weight: 300;
@@ -38,7 +38,7 @@
   padding-right: 10px;
   letter-spacing: 0.7px;
 }
-.from-science #block-views-block-more-in-science-block-1--2 .views-row .from-science-section .from-science-content .date-category a {
+.from-science #block-views-block-more-in-science-block-1 .views-row .from-science-section .from-science-content .date-category a {
   background-color: #b71c1c;
   padding: 2px 5px;
   color: #fff;
@@ -51,7 +51,7 @@
   letter-spacing: 2px;
   text-decoration: none;
 }
-.from-science #block-views-block-more-in-science-block-1--2 .views-row .from-science-section .from-science-content .news-author {
+.from-science #block-views-block-more-in-science-block-1 .views-row .from-science-section .from-science-content .news-author {
   color: #9d9d9d;
   margin-top: 25px;
   font-size: 0.9em;
@@ -59,7 +59,7 @@
   padding-right: 0;
   font-style: normal;
 }
-.from-science #block-views-block-more-in-science-block-1--2 .views-row .from-science-section .from-science-content .news-title a {
+.from-science #block-views-block-more-in-science-block-1 .views-row .from-science-section .from-science-content .news-title a {
   text-decoration: none;
   font-size: 1em;
   color: #000;
@@ -67,7 +67,7 @@
   margin: 10px 0 10px 0;
   text-align: left;
 }
-.from-science #block-views-block-more-in-science-block-1--2 .views-row .from-science-section .from-science-image img {
+.from-science #block-views-block-more-in-science-block-1 .views-row .from-science-section .from-science-image img {
   width: 100%;
   height: 200px;
 }
