@@ -1,8 +1,0 @@
-uuid: 1cc580de-cb2b-4a06-8a33-d37603811498
-langcode: en
-status: true
-dependencies: {  }
-id: site_logo
-label: 'Site Logo'
-revision: 0
-description: ''
