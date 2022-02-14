@@ -23,6 +23,12 @@
 }
 .from-science #block-views-block-more-in-science-block-1--2 .views-row .from-science-section .from-science-content .date-category {
   display: flex;
+  color: #9b9292;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 14px;
+  padding-right: 10px;
+  letter-spacing: 0.7px;
 }
 .from-science #block-views-block-more-in-science-block-1--2 .views-row .from-science-section .from-science-content .date-category time {
   color: #9b9292;

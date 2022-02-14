@@ -5,6 +5,7 @@ dependencies:
   config:
     - field.field.node.news.body
     - field.field.node.news.field_add_to_trending_
+    - field.field.node.news.field_audio_file
     - field.field.node.news.field_author_name
     - field.field.node.news.field_category
     - field.field.node.news.field_date_and_time
@@ -40,6 +41,16 @@ content:
     region: content
     settings:
       display_label: true
+    third_party_settings: {  }
+  field_audio_file:
+    type: entity_reference_autocomplete
+    weight: 29
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
     third_party_settings: {  }
   field_author_name:
     type: string_textfield

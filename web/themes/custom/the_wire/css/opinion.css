@@ -32,6 +32,13 @@
 }
 .opinion #block-views-block-opinion-block-1--2 .opinion-section .opinion-content .date-category {
   display: flex;
+  color: #9d9d9d;
+  color: #9b9292;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 14px;
+  padding-right: 10px;
+  letter-spacing: 0.7px;
 }
 .opinion #block-views-block-opinion-block-1--2 .opinion-section .opinion-content .date-category time {
   color: #9b9292;

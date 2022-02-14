@@ -18,6 +18,7 @@
           padding: 18px;
           .date-category{
             display: flex;
+            @include newsTime();
             time{
               @include newsTime();
             }

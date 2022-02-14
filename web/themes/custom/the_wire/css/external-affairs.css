@@ -37,6 +37,14 @@
   padding-right: 0;
   font-style: normal;
 }
+.external-affairs #block-views-block-external-affairs-block-1--2 .views-row .external-affairs-section .external-affairs-content .date-category {
+  color: #9b9292;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 14px;
+  padding-right: 10px;
+  letter-spacing: 0.7px;
+}
 .external-affairs #block-views-block-external-affairs-block-1--2 .views-row .external-affairs-section .external-affairs-content .date-category time {
   color: #9b9292;
   text-transform: uppercase;

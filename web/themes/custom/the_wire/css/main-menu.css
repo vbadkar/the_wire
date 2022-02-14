@@ -1,6 +1,7 @@
 .main-navigation {
   width: 100%;
   background-color: #b71c1c;
+  height: 60px;
 }
 
 .region-main-menu {
@@ -11,7 +12,7 @@
 }
 .region-main-menu #block-search {
   float: right;
-  padding: 1rem 0 1rem 0;
+  padding: 0.5rem 0 0.5rem 0;
 }
 
 .overlay-category .categories #block-the-wire-main-menu .nav-bar {
@@ -34,10 +35,8 @@
 }
 
 #block-the-wire-main-menu {
-  margin-bottom: 1.5rem;
   display: block;
   width: 100%;
-  height: 50px;
 }
 #block-the-wire-main-menu .nav-bar {
   list-style: none;

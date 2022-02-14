@@ -1,7 +1,6 @@
 .editors-pick {
   background-color: #fff;
   margin-bottom: 1em;
-  margin-top: 1em;
   box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.12);
 }
 .editors-pick #block-views-block-editor-s-pick-block-1--2 h2 {
@@ -30,6 +29,13 @@
   border-bottom: 1px solid #e4e4e4;
 }
 .editors-pick #block-views-block-editor-s-pick-block-1--2 .editors-pick-section .date-category time {
+  display: block;
+}
+.editors-pick #block-views-block-editor-s-pick-block-1--2 .editors-pick-section .news-author {
+  display: block;
+}
+.editors-pick #block-views-block-editor-s-pick-block-1--2 .editors-pick-section .date-category {
+  color: #9d9d9d;
   color: #9b9292;
   text-transform: uppercase;
   font-weight: 300;

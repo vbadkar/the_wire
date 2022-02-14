@@ -1,7 +1,4 @@
 
-document.getElementById("edit-keys").placeholder = "  Search and press enter";
-
-
 const search = document.querySelector('#block-search');
 const menu = document.querySelector('#block-the-wire-main-menu')
 const searchBar = document.querySelector('#block-the-wire-search');

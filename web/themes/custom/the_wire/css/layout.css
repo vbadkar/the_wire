@@ -3,13 +3,13 @@
 }
 
 .main-content-first-section {
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
   display: block;
 }
 
 .main-content-second-section {
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
   display: block;
 }
@@ -20,13 +20,13 @@
 }
 
 .side_bar_more_in {
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
   display: block;
 }
 
 .side_bar_trending {
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
   display: block;
 }
@@ -110,17 +110,17 @@
   }
   .page-wrapper .content-first-wrapper .content-first .first-line {
     display: grid;
-    grid-template-columns: 60% 40%;
+    grid-template-columns: 70% 29%;
     gap: 1rem;
   }
   .page-wrapper .content-first-wrapper .content-first .third-line {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 1fr 1fr;
     gap: 1rem;
   }
   .page-wrapper .content-second-wrapper .content-second .fourth-line {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 1fr 1fr;
     gap: 1rem;
   }
   .page-wrapper .content-second-wrapper .content-second .fifth-line {
@@ -128,7 +128,7 @@
   }
   .page-wrapper .content-second-wrapper .content-second .sixth-line {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 1fr 1fr;
     gap: 1rem;
   }
 

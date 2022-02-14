@@ -3,6 +3,7 @@
 
 .form-wrapper{
   width: 100%;
+  margin-top: 40px;
   .register-form{
     width: 90%;
     margin: auto;
@@ -86,13 +87,18 @@
   #block-sitelogo-2{
     margin: auto;
     width: 40%;
-    margin-top: 40px;
+    // margin-top: 40px;
   }
   .js-password-confirm-message{
     display: none;
   }
 }
-
+.google-button{
+  display: flex;
+  .google-logo{
+    padding: 10px 0 10px 0;
+  }
+}
 @media (min-width: 768px){
 
   .form-wrapper{
@@ -102,8 +108,8 @@
     }
     #block-sitelogo-2{
       margin: auto;
-      width: 9%;
-      margin-top: 40px;
+      width: 150px;
+      // margin-top: 40px;
     }
   }
 }

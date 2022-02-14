@@ -4,7 +4,7 @@
 .form-wrapper{
   width: 100%;
   height: 100%;
-  margin: auto;
+  margin-top: 40px;
   .login-form{
     width: 90%;
     margin: auto;
@@ -32,6 +32,10 @@
     margin-bottom: 1em;
     box-shadow: 0px 1px 2px #7b807e3b;
     cursor: pointer;
+    &::after{
+      content: "->";
+      color: #fff;
+    }
   }
   #edit-submit-google{
     border-radius: 200px;
@@ -104,7 +108,7 @@
   #block-sitelogo-2{
     margin: auto;
     width: 40%;
-    margin-top: 40px;
+    // margin-top: 40px;
   }
 }
 
