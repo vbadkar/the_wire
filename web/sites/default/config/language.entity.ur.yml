@@ -1,9 +1,0 @@
-uuid: 49253e9d-1fda-49ca-8ddb-b7be190c5570
-langcode: en
-status: true
-dependencies: {  }
-id: ur
-label: Urdu
-direction: rtl
-weight: 3
-locked: false

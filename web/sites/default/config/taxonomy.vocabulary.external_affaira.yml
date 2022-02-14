@@ -1,8 +1,0 @@
-uuid: 9bc7d86b-81d5-42e0-aacf-01a48bea968c
-langcode: en
-status: true
-dependencies: {  }
-name: 'External Affaira'
-vid: external_affaira
-description: ''
-weight: 0

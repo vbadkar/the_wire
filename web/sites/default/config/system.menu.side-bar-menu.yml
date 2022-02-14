@@ -1,8 +1,0 @@
-uuid: 9093c7f4-70ff-46ae-9388-6a281f6e9aef
-langcode: en
-status: true
-dependencies: {  }
-id: side-bar-menu
-label: 'Side bar menu'
-description: ''
-locked: false
