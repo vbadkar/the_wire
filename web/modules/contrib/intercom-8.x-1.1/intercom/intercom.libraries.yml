@@ -1,7 +1,0 @@
-intercom:
-  version: 1.x
-  js:
-    js/intercom.js: { }
-  dependencies:
-    - core/drupal
-    - core/drupalSettings
