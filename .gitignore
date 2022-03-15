@@ -46,3 +46,4 @@ sites/simpletest
 
 # Ignore SimpleTest multi-site environment.
 # simpletest
+composer.lock
