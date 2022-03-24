@@ -1,5 +1,16 @@
 <?php
+function the_wire_form_alter(&$form, Drupal\Core\Form\FormStateInterface $form_state, $form_id){
+  if($form_id == 'user_pass'){
+    unset($form['captcha']['#description']);
+    unset($form['mail']['#markup']);
+    $form['name']['#placeholder'] = "name@domain.com";
+    $form['name']['#title']="Email";
+    $form['actions']['submit']['#value']="Request";
+    $form['#prefix'] = t("<p class='form-text-prefix'>Tell us your email used to register on The Wire and we will send you an email with a link to reset your password. You may need to check your spam folder or wait for few minutes.</p>");
+    // dump($form);
+  }
 
+}
 function the_wire_theme_suggestions_alter(array &$suggestions, array $variables, $hook){
 
     if($hook == 'views_view_fields'){

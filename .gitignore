@@ -19,10 +19,11 @@
 /node_modules/
 # Ignore configuration files that may contain sensitive information.
 # web/sites/*/settings.local.php
-web/sites/*/services*.yml
+/web/sites/*/services*.yml
 /web/sites/default/settings.local.php
 /drush/contrib/
 /web/core/
+/web/sites
 /web/modules/contrib/
 /web/themes/contrib/
 /web/profiles/contrib/
