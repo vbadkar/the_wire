@@ -28,6 +28,8 @@ style:
       css/tek_fog.css: {}
       css/login-form.css: {}
       css/signup-form.css: {}
+      css/news-detail.css: {}
+      css/reset-pass.css: {}
 
 hamburger:
   version: VERSION
