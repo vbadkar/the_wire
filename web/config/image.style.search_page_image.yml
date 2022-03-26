@@ -1,0 +1,15 @@
+uuid: 74c8860b-5ded-405f-adcf-29f351deb115
+langcode: en
+status: true
+dependencies: {  }
+name: search_page_image
+label: 'Search Page image'
+effects:
+  204226ba-abec-43b2-9a89-5b71b2934365:
+    uuid: 204226ba-abec-43b2-9a89-5b71b2934365
+    id: image_scale
+    weight: 1
+    data:
+      width: 300
+      height: 200
+      upscale: false

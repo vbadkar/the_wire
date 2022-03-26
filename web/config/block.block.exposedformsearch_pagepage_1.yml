@@ -2,11 +2,8 @@ uuid: ad3dbe2d-de70-4d0b-964d-d2acce4c7992
 langcode: en
 status: true
 dependencies:
-  config:
-    - views.view.search_page
   module:
     - system
-    - views
   theme:
     - the_wire
 id: exposedformsearch_pagepage_1

@@ -5,14 +5,20 @@ dependencies:
   config:
     - field.field.node.news.body
     - field.field.node.news.field_add_to_trending_
+    - field.field.node.news.field_audio_file
     - field.field.node.news.field_author_name
+    - field.field.node.news.field_author_picture
     - field.field.node.news.field_category
     - field.field.node.news.field_date_and_time
+    - field.field.node.news.field_image_summary
     - field.field.node.news.field_news_image
+    - field.field.node.news.field_short_description
+    - field.field.node.news.field_summary
     - field.field.node.news.field_top_story_
     - field.field.node.news.field_video
     - node.type.news
   module:
+    - audiofield
     - datetime
     - iframe
     - svg_image
@@ -40,6 +46,38 @@ content:
     third_party_settings: {  }
     weight: 6
     region: content
+  field_audio_file:
+    type: audiofield_audioplayer
+    label: hidden
+    settings:
+      audio_player: mediaelement_audio_player
+      audio_player_jplayer_theme: none
+      audio_player_wavesurfer_combine_files: false
+      audio_player_wavesurfer_audiorate: 1
+      audio_player_wavesurfer_autocenter: true
+      audio_player_wavesurfer_bargap: 0
+      audio_player_wavesurfer_barheight: 1
+      audio_player_wavesurfer_barwidth: null
+      audio_player_wavesurfer_cursorcolor: '#000000'
+      audio_player_wavesurfer_cursorwidth: 1
+      audio_player_wavesurfer_forcedecode: false
+      audio_player_wavesurfer_normalize: false
+      audio_player_wavesurfer_playnexttrack: true
+      audio_player_wavesurfer_progresscolor: '#000000'
+      audio_player_wavesurfer_responsive: false
+      audio_player_wavesurfer_use_peakfile: false
+      audio_player_wavesurfer_wavecolor: '#000000'
+      audio_player_wordpress_combine_files: false
+      audio_player_wordpress_animation: true
+      audio_player_soundmanager_theme: default
+      audio_player_initial_volume: 5
+      audio_player_autoplay: false
+      audio_player_lazyload: false
+      download_button: false
+      download_link: false
+    third_party_settings: {  }
+    weight: 15
+    region: content
   field_author_name:
     type: string
     label: above
@@ -47,6 +85,19 @@ content:
       link_to_entity: false
     third_party_settings: {  }
     weight: 2
+    region: content
+  field_author_picture:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      svg_attributes:
+        width: null
+        height: null
+      svg_render_as_image: true
+    third_party_settings: {  }
+    weight: 10
     region: content
   field_category:
     type: entity_reference_label
@@ -65,14 +116,39 @@ content:
     third_party_settings: {  }
     weight: 4
     region: content
+  field_image_summary:
+    type: basic_string
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 14
+    region: content
   field_news_image:
     type: image
     label: above
     settings:
       image_link: ''
       image_style: ''
+      svg_attributes:
+        width: null
+        height: null
+      svg_render_as_image: true
     third_party_settings: {  }
     weight: 3
+    region: content
+  field_short_description:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 9
+    region: content
+  field_summary:
+    type: basic_string
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 13
     region: content
   field_top_story_:
     type: boolean

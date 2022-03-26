@@ -1,0 +1,13 @@
+uuid: dbb515b4-806a-4f42-89cd-a9600f026ad0
+langcode: en
+status: true
+dependencies:
+  config:
+    - image.style.max_325x325
+  theme:
+    - the_wire
+id: search_page_images
+label: 'Search Page images'
+image_style_mappings: {  }
+breakpoint_group: the_wire
+fallback_image_style: max_325x325

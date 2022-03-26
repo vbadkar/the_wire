@@ -7,7 +7,52 @@ dependencies:
     - field.storage.node.field_category
     - field.storage.node.field_date_and_time
     - field.storage.node.field_news_image
+    - image.style.search_page_image
     - search_api.index.default_index
+    - taxonomy.vocabulary.tags
+  content:
+    - 'taxonomy_term:tags:00cdd0a3-c46d-4174-aabd-22e2d9e4d6c6'
+    - 'taxonomy_term:tags:0436dc16-b6cc-4e66-bee4-0985f45f3356'
+    - 'taxonomy_term:tags:0b09f452-0cf8-49f4-a445-5d639edaa1e5'
+    - 'taxonomy_term:tags:118ee8fc-74bf-469c-a06b-1e4005184983'
+    - 'taxonomy_term:tags:1222a780-9a06-44b0-b23c-48c7160c378a'
+    - 'taxonomy_term:tags:1e45d018-5ea4-4521-8366-1644396cb9c0'
+    - 'taxonomy_term:tags:21e40338-c200-4a38-b524-7643dd074ce0'
+    - 'taxonomy_term:tags:25bcec46-b74d-4421-85fb-d6c59a66a719'
+    - 'taxonomy_term:tags:2c7fb808-905d-44fb-986a-0bf8daf3d405'
+    - 'taxonomy_term:tags:35cba391-44aa-4d9b-a4b0-42a06cb7fbf7'
+    - 'taxonomy_term:tags:3a50c066-695c-489d-b660-dcca8c0043e9'
+    - 'taxonomy_term:tags:3f2e5564-d5bd-478d-b7b4-d4dbb900f4b3'
+    - 'taxonomy_term:tags:4065a4c5-faa6-4445-8256-7c898d541336'
+    - 'taxonomy_term:tags:41e77906-cdb7-43e5-a1c7-f9abdeea10c4'
+    - 'taxonomy_term:tags:445b58d0-ef23-4825-bdba-37aadadd59d6'
+    - 'taxonomy_term:tags:455a5922-68db-45bd-9119-8163116b3e7a'
+    - 'taxonomy_term:tags:5167fc15-7eea-4fb4-b5ba-a438d5f7a5b7'
+    - 'taxonomy_term:tags:51c5a621-c7a9-4564-aa74-b0155c83417e'
+    - 'taxonomy_term:tags:5dfc8397-8e9a-4c42-971f-a4c274427d90'
+    - 'taxonomy_term:tags:62029b9b-3806-4c53-886f-262e4aaeb9cc'
+    - 'taxonomy_term:tags:64909ec1-459f-4450-8ffd-1800fa77671e'
+    - 'taxonomy_term:tags:67a3481f-fbf0-44eb-bd58-db7042b172df'
+    - 'taxonomy_term:tags:6fc3c480-cef3-421b-88c9-6ae8ec58d858'
+    - 'taxonomy_term:tags:7312dc1c-2415-4d31-a45e-fa513b447b52'
+    - 'taxonomy_term:tags:7ed42bf5-3c37-4fb3-8322-a8197d44c68f'
+    - 'taxonomy_term:tags:86830f91-80b7-499b-9c74-4e9c88354a3d'
+    - 'taxonomy_term:tags:9b1c1e3f-cea7-4741-9be2-8cc1f00bfc1a'
+    - 'taxonomy_term:tags:a3bc9760-124f-441a-b40c-068dd790e49e'
+    - 'taxonomy_term:tags:a7071ae3-a498-4256-8f9c-9f6f3430034d'
+    - 'taxonomy_term:tags:ae6846b9-4bcd-496e-a5ff-baa14080de04'
+    - 'taxonomy_term:tags:b9ba1108-659e-48ee-9bb8-96e5bc9224b0'
+    - 'taxonomy_term:tags:bdeba9ff-e0ea-4008-b436-11f8dd70dcec'
+    - 'taxonomy_term:tags:d06946ce-1f27-40b5-a607-fc6ecfb2ce0c'
+    - 'taxonomy_term:tags:d2f3fad7-c362-4a7f-96d3-ab0ab0bc76c1'
+    - 'taxonomy_term:tags:d413df5c-360b-47d0-926b-4bb928efe92d'
+    - 'taxonomy_term:tags:e015f71e-1655-4e24-900d-d364449a931d'
+    - 'taxonomy_term:tags:e2f45b54-b377-407e-bf73-68a7073b5a35'
+    - 'taxonomy_term:tags:e46d4a31-77cf-435d-a574-1b8d79a8c9fb'
+    - 'taxonomy_term:tags:ed70054a-ff1b-4b76-9ab1-4db66d310ef5'
+    - 'taxonomy_term:tags:f5ed1051-3593-48e2-a492-086c63e134d8'
+    - 'taxonomy_term:tags:fad233af-3029-43c3-a005-4b663c9cd493'
+    - 'taxonomy_term:tags:fd3f5269-e414-4e1f-a858-2b39ca39a2c1'
   module:
     - datetime
     - search_api
@@ -82,7 +127,7 @@ display:
           type: image
           settings:
             image_link: ''
-            image_style: ''
+            image_style: search_page_image
             svg_attributes:
               width: null
               height: null
@@ -433,11 +478,11 @@ display:
           submit_button: Search
           reset_button: false
           reset_button_label: Reset
-          exposed_sorts_label: 'Sort by'
+          exposed_sorts_label: 'Sort by:'
           expose_sort_order: true
           sort_asc_label: Asc
           sort_desc_label: Desc
-          text_input_required: 'Select any filter and click on Apply to see results'
+          text_input_required: ''
           text_input_required_format: basic_html
       access:
         type: none
@@ -470,11 +515,114 @@ display:
           plugin_id: search_api
           order: DESC
           expose:
-            label: ''
-            field_identifier: ''
-          exposed: false
+            label: Relevance
+            field_identifier: search_api_relevance
+          exposed: true
+        field_date_and_time:
+          id: field_date_and_time
+          table: search_api_index_default_index
+          field: field_date_and_time
+          relationship: none
+          group_type: group
+          admin_label: ''
+          plugin_id: search_api
+          order: ASC
+          expose:
+            label: Date
+            field_identifier: field_date_and_time
+          exposed: true
       arguments: {  }
       filters:
+        field_category:
+          id: field_category
+          table: search_api_index_default_index
+          field: field_category
+          relationship: none
+          group_type: group
+          admin_label: ''
+          plugin_id: search_api_term
+          operator: or
+          value:
+            45: 45
+            28: 28
+            41: 41
+            220: 220
+            34: 34
+            221: 221
+            223: 223
+            222: 222
+            51: 51
+            35: 35
+            43: 43
+            46: 46
+            218: 218
+            29: 29
+            50: 50
+            49: 49
+            30: 30
+            40: 40
+            47: 47
+            36: 36
+            219: 219
+            31: 31
+            217: 217
+            37: 37
+            42: 42
+            25: 25
+            44: 44
+            32: 32
+            33: 33
+            52: 52
+            216: 216
+            215: 215
+            214: 214
+            53: 53
+            26: 26
+            38: 38
+            24: 24
+            48: 48
+            22: 22
+            39: 39
+            23: 23
+            27: 27
+          group: 1
+          exposed: true
+          expose:
+            operator_id: field_category_op
+            label: 'Filter by:'
+            description: ''
+            use_operator: false
+            operator: field_category_op
+            operator_limit_selection: false
+            operator_list: {  }
+            identifier: field_category
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+              anonymous: '0'
+              content_editor: '0'
+              administrator: '0'
+            reduce: false
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
+          reduce_duplicates: false
+          vid: tags
+          type: select
+          hierarchy: false
+          limit: true
+          error_message: true
         search_api_fulltext:
           id: search_api_fulltext
           table: search_api_index_default_index
@@ -522,6 +670,10 @@ display:
           parse_mode: terms
           min_length: null
           fields: {  }
+      filter_groups:
+        operator: AND
+        groups:
+          1: AND
       style:
         type: default
       row:
@@ -533,7 +685,21 @@ display:
           skip_access: false
           preserve_facet_query_args: false
       relationships: {  }
-      header: {  }
+      use_ajax: true
+      header:
+        area:
+          id: area
+          table: views
+          field: area
+          relationship: none
+          group_type: group
+          admin_label: ''
+          plugin_id: text
+          empty: false
+          content:
+            value: '<div class="show-results-text">Showing results for "{{ field_category }}"</div>'
+            format: full_html
+          tokenize: true
       footer: {  }
       display_extenders: {  }
     cache_metadata:
@@ -542,6 +708,9 @@ display:
         - 'languages:language_content'
         - 'languages:language_interface'
         - url
+        - 'url.query_args:sort_by'
+        - 'url.query_args:sort_order'
+        - user
         - 'user.node_grants:view'
       tags:
         - 'config:field.storage.node.field_author_name'
@@ -564,6 +733,9 @@ display:
         - 'languages:language_content'
         - 'languages:language_interface'
         - url
+        - 'url.query_args:sort_by'
+        - 'url.query_args:sort_order'
+        - user
         - 'user.node_grants:view'
       tags:
         - 'config:field.storage.node.field_author_name'
