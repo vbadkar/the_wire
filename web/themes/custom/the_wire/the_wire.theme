@@ -10,6 +10,13 @@ function the_wire_form_alter(&$form, Drupal\Core\Form\FormStateInterface $form_s
     // dump($form);
   }
 
+function the_wire_form_alter(&$form, Drupal\Core\Form\FormStateInterface $form_state, $form_id){
+  if($form_id == 'user_login_form'){
+    $form['#submit'][] = 'the_wire_user_login_submit';
+  }
+}
+function the_wire_user_login_submit(&$form, Drupal\Core\Form\FormStateInterface $form_state){
+  $form_state->setRedirect('<front>');
 }
 function the_wire_theme_suggestions_alter(array &$suggestions, array $variables, $hook){
 
