@@ -1,0 +1,96 @@
+.news-details-content {
+  background-color: #fff;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 40px 50px;
+}
+.news-details-content .news-title {
+  color: #282828;
+  font-size: 2.5em;
+  font-family: PT Serif, serif;
+  font-weight: 800;
+  margin-top: 21px;
+  line-height: 1.28;
+  margin-bottom: 18px;
+}
+.news-details-content .news-summary {
+  color: #686868;
+  font-family: PT Sans, sans-serif;
+  font-size: 1.3em;
+  margin-top: 10px;
+  line-height: 1.55;
+  margin-top: 0;
+  margin-bottom: 4px;
+}
+.news-details-content .news-image-summary {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  color: gray;
+  font-size: 0.8em;
+}
+.news-details-content .category-tags a {
+  background-color: #b71c1c;
+  padding: 2px 5px;
+  color: #fff;
+  display: inline-block;
+  text-transform: uppercase;
+  margin-right: 10px;
+  margin: 2px;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  margin: 1px;
+  padding: 3.5px 10px;
+  font-size: 1.2em;
+  font-weight: 500;
+  letter-spacing: 1.3px;
+}
+.news-details-content .category-tags-inside a {
+  background-color: #b71c1c;
+  padding: 2px 5px;
+  color: #fff;
+  display: inline-block;
+  text-transform: uppercase;
+  margin-right: 10px;
+  margin: 2px;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-decoration: none;
+}
+
+.news-content-wrapper {
+  display: grid;
+  grid-template-columns: 0.3fr 1fr;
+}
+.news-content-wrapper .side1 .news-author-name {
+  font-size: 1.3em;
+  font-family: PT Serif, serif;
+  margin-top: 0;
+}
+.news-content-wrapper .side1 .news-author-name .author-name {
+  color: #b71c1c;
+}
+.news-content-wrapper .side1 .news-author-picture .author-picture img {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+}
+.news-content-wrapper .side2 .content-body {
+  font-family: PT Serif, serif;
+  letter-spacing: 0.2px;
+  color: #282828;
+  line-height: 1.3em;
+}
+.news-content-wrapper .side2 .content-body p {
+  font-size: 1.3em;
+}
+.news-content-wrapper .side2 .listen-to-article {
+  border: 2px solid #b71c1c;
+}
+.news-content-wrapper .side2 .listen-to-article .listen-artice-player {
+  padding: 20px;
+  display: table;
+}
