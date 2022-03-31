@@ -1,0 +1,15 @@
+uuid: ff1d0ae3-bc01-4b13-8970-bf5ea8e5203e
+langcode: en
+status: true
+dependencies: {  }
+name: search_page
+label: 'Search page'
+effects:
+  db145cd9-ddd6-476e-822d-5724cbb27f2c:
+    uuid: db145cd9-ddd6-476e-822d-5724cbb27f2c
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 222
+      height: 154
+      anchor: center-center
