@@ -1,0 +1,10 @@
+uuid: 9abbfe10-0c42-4ba1-ba33-d11fae2e0089
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.search_form
+label: 'search form'
+targetEntityType: node
+cache: true

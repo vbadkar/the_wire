@@ -1,0 +1,173 @@
+.views-element-container header {
+  padding: 30px;
+  background-color: #000;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 120px;
+  margin-bottom: 22px;
+  background-position: 50%;
+}
+.views-element-container header .show-results-text {
+  padding: 10px;
+  font-family: PT Serif, serif;
+  font-weight: 700;
+  font-size: 2em;
+  color: #fff;
+  text-transform: capitalize;
+}
+.views-element-container header .show-results-text a {
+  padding: 10px;
+  font-family: PT Serif, serif;
+  font-weight: 700;
+  font-size: 1em;
+  color: #fff;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+
+#views-exposed-form-search-page-page-1 {
+  display: flex;
+  gap: 1em;
+  width: 75%;
+  margin: 30px 20px;
+  top: auto;
+  bottom: auto;
+}
+#views-exposed-form-search-page-page-1 .views-row {
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+  margin-bottom: 1em;
+  width: 75%;
+  margin-bottom: 0.3em;
+  position: relative;
+}
+#views-exposed-form-search-page-page-1 label {
+  font-family: Oswald, sans-serif;
+  font-weight: 500;
+  color: #464646;
+  font-size: 1.2em;
+  display: inline-block;
+  width: 70px;
+}
+#views-exposed-form-search-page-page-1 select {
+  background-color: rgba(255, 255, 255, 0.9);
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #f2f2f2;
+  border-radius: 2px;
+  height: 3rem;
+}
+#views-exposed-form-search-page-page-1 .form-text {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #9e9e9e;
+  border-radius: 0;
+  outline: none;
+  height: 3rem;
+  font-size: 16px;
+  margin: 0 0 8px 0;
+  padding: 0;
+  box-shadow: none;
+  box-sizing: content-box;
+}
+#views-exposed-form-search-page-page-1 .js-form-submit {
+  display: none;
+}
+#views-exposed-form-search-page-page-1 .form-item-search-api-fulltext label {
+  display: none;
+}
+#views-exposed-form-search-page-page-1 .form-item-field-category {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+#views-exposed-form-search-page-page-1 .form-item-sort-by {
+  display: flex;
+  align-items: center;
+}
+#views-exposed-form-search-page-page-1 .form-select {
+  font-family: Oswald, sans-serif;
+  font-weight: 500;
+  display: inline-block;
+  margin-left: 22px;
+  width: 140px;
+  text-transform: uppercase;
+  color: #b71c1c;
+}
+
+.search-page-section {
+  display: block;
+  display: grid;
+  grid-template-columns: 35% 60%;
+  gap: 1em;
+  padding: 2px 3px 2px 3px;
+  grid-template-columns: 22% 78%;
+  gap: 0;
+  background-color: #fff;
+}
+.search-page-section .search-page-image img {
+  object-fit: cover;
+  padding: 3px;
+}
+.search-page-section .search-page-content {
+  padding: 18px;
+}
+.search-page-section .search-page-content .news-author {
+  color: #9d9d9d;
+  margin-top: 25px;
+  font-size: 0.9em;
+  font-size: 14px;
+  padding-right: 0;
+  font-style: normal;
+  position: absolute;
+  bottom: 10px;
+}
+.search-page-section .search-page-content .news-title a {
+  text-decoration: none;
+  font-size: 1em;
+  color: #000;
+  font-weight: 400;
+  margin: 10px 0 10px 0;
+  text-align: left;
+}
+.search-page-section .search-page-content .date-category {
+  display: flex;
+  color: #9d9d9d;
+  color: #9b9292;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 14px;
+  padding-right: 10px;
+  letter-spacing: 0.7px;
+}
+.search-page-section .search-page-content .date-category time {
+  color: #9b9292;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 14px;
+  padding-right: 10px;
+  letter-spacing: 0.7px;
+}
+.search-page-section .search-page-content .date-category a {
+  background-color: #b71c1c;
+  padding: 2px 5px;
+  color: #fff;
+  display: inline-block;
+  text-transform: uppercase;
+  margin-right: 10px;
+  margin: 2px;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-decoration: none;
+}
+
+@media (max-width: 320px) {
+  #views-exposed-form-search-page-page-1 {
+    display: block;
+  }
+
+  .search-page-image img {
+    height: 154px;
+    width: 122px;
+  }
+}

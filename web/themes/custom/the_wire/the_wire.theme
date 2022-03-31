@@ -9,15 +9,21 @@ function the_wire_form_alter(&$form, Drupal\Core\Form\FormStateInterface $form_s
     $form['#prefix'] = t("<p class='form-text-prefix'>Tell us your email used to register on The Wire and we will send you an email with a link to reset your password. You may need to check your spam folder or wait for few minutes.</p>");
     // dump($form);
   }
-
-function the_wire_form_alter(&$form, Drupal\Core\Form\FormStateInterface $form_state, $form_id){
   if($form_id == 'user_login_form'){
     $form['#submit'][] = 'the_wire_user_login_submit';
   }
+  if($form_id == 'views_exposed_form'){
+    // dump($form);
+    // $form['field_category']['weight'] = 0;
+    $form['#info']['filter-field_category']['weight'] = 0;
+    unset($form['sort_order']);
+  }
 }
+
 function the_wire_user_login_submit(&$form, Drupal\Core\Form\FormStateInterface $form_state){
   $form_state->setRedirect('<front>');
 }
+
 function the_wire_theme_suggestions_alter(array &$suggestions, array $variables, $hook){
 
     if($hook == 'views_view_fields'){
@@ -56,8 +62,18 @@ function the_wire_theme_suggestions_alter(array &$suggestions, array $variables,
       if($view_id == 'tek_fog'){
         $suggestions[] = 'views_view_fields__'. $view_id;
       }
+      if($view_id == 'search_page'){
+        $suggestions[] = 'views_view_fields__'. $view_id;
+      }
       //  kint($view->id());
     }
+    if($hook == 'views_view_unformatted'){
+      if($view_id == 'search_page'){
+        $suggestions[] = 'views_view_unformatted__'. $view_id;
+      }
+      // dump($view_id);
+    }
+
 }
 
 function the_wire_theme_suggestions_views_view_alter(array &$suggestions, array $variables, $hook){
@@ -87,4 +103,3 @@ function the_wire_theme_suggestions_views_view_alter(array &$suggestions, array 
     }
   }
 }
-

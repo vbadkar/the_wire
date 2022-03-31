@@ -29,6 +29,7 @@ style:
       css/login-form.css: {}
       css/signup-form.css: {}
       css/news-detail.css: {}
+      css/search-results.css: {}
       css/reset-pass.css: {}
 
 hamburger:

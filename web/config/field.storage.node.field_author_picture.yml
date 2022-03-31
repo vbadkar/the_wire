@@ -1,14 +1,14 @@
-uuid: 0963b2d7-e531-4437-86ee-dfa5b1cfd45a
+uuid: a8645797-6a51-4a5a-bc76-4b6bdecc9eb3
 langcode: en
 status: true
 dependencies:
   module:
-    - block_content
     - file
     - image
-id: block_content.field_logo
-field_name: field_logo
-entity_type: block_content
+    - node
+id: node.field_author_picture
+field_name: field_author_picture
+entity_type: node
 type: image
 settings:
   target_type: file
@@ -16,11 +16,11 @@ settings:
   display_default: false
   uri_scheme: public
   default_image:
-    uuid: 17fd8b59-d211-4dd2-be0a-b77393d584f6
-    alt: 'Logo of the wire website'
-    title: 'The wire'
-    width: 302
-    height: 167
+    uuid: ca54f0fb-1213-4cca-8cf5-1bbecc11e311
+    alt: 'placeholder author picture'
+    title: ''
+    width: 150
+    height: 150
 module: image
 locked: false
 cardinality: 1

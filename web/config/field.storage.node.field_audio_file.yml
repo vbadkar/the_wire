@@ -1,0 +1,23 @@
+uuid: 5fb2be09-f7f1-47f8-b568-96624c9b790e
+langcode: en
+status: true
+dependencies:
+  module:
+    - file
+    - node
+id: node.field_audio_file
+field_name: field_audio_file
+entity_type: node
+type: file
+settings:
+  target_type: file
+  display_field: false
+  display_default: false
+  uri_scheme: public
+module: file
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
