@@ -144,7 +144,7 @@
   font-stretch: normal;
   font-style: normal;
 }
-.form-wrapper #block-sitelogo-2 {
+.form-wrapper #block-sitelogo2 {
   margin: auto;
   width: 40%;
 }
@@ -154,9 +154,9 @@
     width: 400px;
     padding: 20px;
   }
-  .form-wrapper #block-sitelogo-2 {
+  .form-wrapper #block-sitelogo2 {
     margin: auto;
-    width: 9%;
+    width: 12%;
   }
   .form-wrapper .form-redirect {
     width: 400px;

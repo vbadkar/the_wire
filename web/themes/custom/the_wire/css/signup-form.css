@@ -135,7 +135,7 @@
   font-stretch: normal;
   font-style: normal;
 }
-.form-wrapper #block-sitelogo-2 {
+.form-wrapper #block-sitelogo2 {
   margin: auto;
   width: 40%;
 }
@@ -155,7 +155,7 @@
     width: 400px;
     margin: auto;
   }
-  .form-wrapper #block-sitelogo-2 {
+  .form-wrapper #block-sitelogo2 {
     margin: auto;
     width: 150px;
   }

@@ -10,7 +10,7 @@ dependencies:
 id: socialauthlogin
 theme: the_wire
 region: main_content_middle
-weight: 0
+weight: -14
 provider: null
 plugin: social_auth_login
 settings:

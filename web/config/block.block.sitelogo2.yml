@@ -1,23 +1,23 @@
-uuid: 42d2285d-d365-4879-96d3-2f649122de25
+uuid: 4e0c9045-eed0-4361-a6d7-3bbc030edc5c
 langcode: en
-status: false
+status: true
 dependencies:
   content:
-    - 'block_content:basic:86a6c41e-2dfa-4487-8124-46733b95f009'
+    - 'block_content:basic:0d4bce2e-bfb4-4be9-9d79-89b5f065c105'
   module:
     - block_content
     - system
   theme:
     - the_wire
-id: sitelogo_2
+id: sitelogo2
 theme: the_wire
 region: main_content_middle
-weight: -18
+weight: 0
 provider: null
-plugin: 'block_content:86a6c41e-2dfa-4487-8124-46733b95f009'
+plugin: 'block_content:0d4bce2e-bfb4-4be9-9d79-89b5f065c105'
 settings:
-  id: 'block_content:86a6c41e-2dfa-4487-8124-46733b95f009'
-  label: 'Site logo'
+  id: 'block_content:0d4bce2e-bfb4-4be9-9d79-89b5f065c105'
+  label: 'Site logo 2'
   label_display: '0'
   provider: block_content
   status: true
