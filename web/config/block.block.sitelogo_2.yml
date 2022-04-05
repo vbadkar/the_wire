@@ -12,7 +12,7 @@ dependencies:
 id: sitelogo_2
 theme: the_wire
 region: main_content_middle
-weight: -16
+weight: -18
 provider: null
 plugin: 'block_content:86a6c41e-2dfa-4487-8124-46733b95f009'
 settings:

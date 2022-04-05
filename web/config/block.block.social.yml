@@ -11,7 +11,7 @@ dependencies:
 id: social
 theme: the_wire
 region: main_content_middle
-weight: 0
+weight: -15
 provider: null
 plugin: 'system_menu_block:social'
 settings:

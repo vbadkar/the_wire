@@ -1,0 +1,104 @@
+@import "./partials/mixins";
+@import "./partials/variables";
+
+#block-aboutpage{
+  padding: 30px;
+  background-color: #000;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  margin-bottom: 22px;
+  background-position: 50%;
+  h2{
+    padding: 10px;
+    font-family: PT Serif,serif;
+    font-weight: 700;
+    font-size: 2em;
+    color: #fff;
+    text-transform: capitalize;
+  }
+  ul{
+    font-size: 15px;
+    li{
+      display: inline;
+      list-style:none;
+      a{
+        color: #e4e4e4;
+        padding: 10px;
+        border-right: 2px solid #e4e4e4;
+        font-family: Oswald,sans-serif;
+        line-height: 0;
+        position: relative;
+        display: inline-block;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
+#block-views-block-about-page-block-1{
+  .views-row{
+    background-color: #fff;
+    border-top: 2px solid $red;
+    // padding: 0 50px 20px;
+    margin-bottom: 1em;
+    @include cardBoxShadow();
+    .views-field-title{
+      // @include newsTitle();
+      padding: 50px 50px 20px;
+      a{
+        text-decoration: none;
+        text-transform: capitalize;
+        font-size: 1.85em;
+        // padding: 50px 50px 20px;
+        font-family: PT Serif,serif;
+        font-weight: 500;
+        color:rgba(0,0,0,0.87);
+      }
+    }
+    .views-field-body{
+      padding: 50px 50px 20px;
+      font-family: PT Serif,serif;
+      font-weight: 400;
+      font-size: 1.25em;
+    }
+  }
+}
+
+@media (max-width: 320px){
+  #block-aboutpage{
+    h2{
+      padding: 10px;
+      font-family: PT Serif,serif;
+      font-weight: 700;
+      font-size: 1.6em;
+      color: #fff;
+      text-transform: capitalize;
+    }
+  }
+  #block-views-block-about-page-block-1{
+    width: 90%;
+    margin: auto;
+
+    .views-row{
+      // padding: 0 50px 20px;
+
+      .views-field-title{
+        padding: 50px 50px 20px;
+      }
+      .views-field-body{
+        // width: 100%;
+        font-size: 14px;
+        line-height: 1.5;
+        padding: 50px 50px 20px;
+        .field-content{
+          width: 100%;
+          font-size: 1.2rem;
+          a{
+            padding: 0;
+            margin: 0;
+          }
+        }
+      }
+    }
+  }
+}

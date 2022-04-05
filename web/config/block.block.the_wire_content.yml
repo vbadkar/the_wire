@@ -11,7 +11,7 @@ _core:
 id: the_wire_content
 theme: the_wire
 region: main_content_middle
-weight: -17
+weight: -19
 provider: null
 plugin: system_main_block
 settings:

@@ -9,7 +9,7 @@ dependencies:
 id: exposedformsearch_pagepage_1
 theme: the_wire
 region: main_content_middle
-weight: -14
+weight: -16
 provider: null
 plugin: 'views_exposed_filter_block:search_page-page_1'
 settings:

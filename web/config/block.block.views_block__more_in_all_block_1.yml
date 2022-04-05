@@ -12,7 +12,7 @@ dependencies:
 id: views_block__more_in_all_block_1
 theme: the_wire
 region: sidebar_first
-weight: -15
+weight: -19
 provider: null
 plugin: 'views_block:more_in_all-block_1'
 settings:
@@ -26,4 +26,4 @@ visibility:
   request_path:
     id: request_path
     negate: true
-    pages: "/node/*\r\n/search-page"
+    pages: "/node/*\r\n/search-page\r\n/about\r\n"

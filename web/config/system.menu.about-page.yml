@@ -1,0 +1,8 @@
+uuid: 689a55e9-d45e-4471-ab97-98ad301df113
+langcode: en
+status: true
+dependencies: {  }
+id: about-page
+label: 'About page'
+description: ''
+locked: false

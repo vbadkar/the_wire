@@ -1,0 +1,29 @@
+uuid: a7aaa146-ff35-4c4a-a9ec-c7539b40ce94
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.about-page
+  module:
+    - system
+  theme:
+    - the_wire
+id: aboutpage
+theme: the_wire
+region: main_content_middle
+weight: -13
+provider: null
+plugin: 'system_menu_block:about-page'
+settings:
+  id: 'system_menu_block:about-page'
+  label: 'About the wire'
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /about
