@@ -1,0 +1,22 @@
+uuid: 2c32f4a0-b808-43cc-a44a-a2a4888fb712
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+label: 'About page'
+id: about_page
+description: ''
+matchers:
+  de558f0a-7449-440a-8995-bdaf98b2427c:
+    id: 'entity:node'
+    uuid: de558f0a-7449-440a-8995-bdaf98b2427c
+    settings:
+      metadata: ''
+      bundles:
+        article: article
+      group_by_bundle: false
+      substitution_type: canonical
+      limit: 100
+      include_unpublished: false
+    weight: 0

@@ -11,7 +11,7 @@ _core:
 id: the_wire_messages
 theme: the_wire
 region: main_content_middle
-weight: -15
+weight: -17
 provider: null
 plugin: system_messages_block
 settings:
