@@ -1,4 +1,4 @@
-uuid: 83e52651-ce54-47e9-88d2-1618500c8b70
+uuid: 8274bfd9-6f4e-46a5-abe5-14e5a8efacc9
 langcode: en
 status: true
 dependencies:
@@ -7,14 +7,14 @@ dependencies:
     - node.type.article
     - taxonomy.vocabulary.about
   content:
-    - 'taxonomy_term:about:8452f2cb-018f-467c-a7da-d722ca1e7c19'
+    - 'taxonomy_term:about:5eeadb98-1d0e-4a7c-814d-c40b17df2f39'
   module:
     - node
     - taxonomy
     - text
     - user
-id: privacy_page
-label: 'Privacy page'
+id: terms_and_condition_page
+label: 'Terms and Condition page'
 module: views
 description: ''
 tag: ''
@@ -27,7 +27,7 @@ display:
     display_plugin: default
     position: 0
     display_options:
-      title: 'Privacy page'
+      title: 'Terms and Condition page'
       fields:
         title:
           id: title
@@ -231,7 +231,7 @@ display:
           plugin_id: taxonomy_index_tid
           operator: or
           value:
-            - 225
+            - 227
           group: 1
           exposed: false
           expose:

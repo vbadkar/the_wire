@@ -1,0 +1,8 @@
+uuid: 6a284146-73b4-4d14-b647-6d6cdcfc5e0a
+langcode: en
+status: true
+dependencies: {  }
+name: 'Footer Page links'
+vid: about
+description: ''
+weight: 0
