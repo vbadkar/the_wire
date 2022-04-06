@@ -31,6 +31,7 @@ style:
       css/search-results.css: {}
       css/reset-pass.css: {}
       css/about.css: {}
+      css/privacy.css: {}
 
 hamburger:
   version: VERSION
