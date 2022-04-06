@@ -26,4 +26,4 @@ visibility:
   request_path:
     id: request_path
     negate: true
-    pages: "/node/*\r\n/about\r\n/privacy"
+    pages: "/node/*\r\n/about\r\n/privacy\r\n/terms\r\n/refund"

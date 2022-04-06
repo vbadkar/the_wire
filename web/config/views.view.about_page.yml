@@ -5,8 +5,12 @@ dependencies:
   config:
     - field.storage.node.body
     - node.type.article
+    - taxonomy.vocabulary.about
+  content:
+    - 'taxonomy_term:about:fd9e5842-9881-4fa9-b2a0-8e1e0144812f'
   module:
     - node
+    - taxonomy
     - text
     - user
 id: about_page
@@ -217,6 +221,52 @@ display:
           expose:
             operator_limit_selection: false
             operator_list: {  }
+        field_page_target_id:
+          id: field_page_target_id
+          table: node__field_page
+          field: field_page_target_id
+          relationship: none
+          group_type: group
+          admin_label: ''
+          plugin_id: taxonomy_index_tid
+          operator: or
+          value:
+            - 224
+          group: 1
+          exposed: false
+          expose:
+            operator_id: ''
+            label: ''
+            description: ''
+            use_operator: false
+            operator: ''
+            operator_limit_selection: false
+            operator_list: {  }
+            identifier: ''
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+            reduce: false
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
+          reduce_duplicates: false
+          vid: about
+          type: textfield
+          hierarchy: false
+          limit: true
+          error_message: true
       style:
         type: default
       row:
@@ -238,6 +288,7 @@ display:
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
+        - user
         - 'user.node_grants:view'
         - user.permissions
       tags:
@@ -254,6 +305,7 @@ display:
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
+        - user
         - 'user.node_grants:view'
         - user.permissions
       tags:

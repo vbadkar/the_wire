@@ -32,6 +32,7 @@ style:
       css/reset-pass.css: {}
       css/about.css: {}
       css/privacy.css: {}
+      css/terms.css: {}
 
 hamburger:
   version: VERSION
