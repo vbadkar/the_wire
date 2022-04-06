@@ -1,0 +1,31 @@
+@import "./partials/mixins";
+@import "./partials/variables";
+
+#block-views-block-privacy-page-block-1{
+  width: 90%;
+  margin: auto;
+  margin-top: 1em;
+  .views-row{
+    background-color: #fff;
+    border-top: 2px solid $red;
+    @include cardBoxShadow();
+    .views-field-title{
+      padding: 50px 50px 20px;
+      a{
+        text-decoration: none;
+        text-transform: capitalize;
+        font-size: 1.85em;
+        font-family: PT Serif,serif;
+        font-weight: 500;
+        color:rgba(0,0,0,0.87);
+      }
+    }
+    .views-field-body{
+      padding: 50px 50px 20px;
+      font-family: PT Serif,serif;
+      font-weight: 400;
+      font-size: 1.25em;
+      color:rgba(0,0,0,0.87);
+    }
+  }
+}
