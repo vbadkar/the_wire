@@ -33,6 +33,7 @@ style:
       css/about.css: {}
       css/privacy.css: {}
       css/terms.css: {}
+      css/contribute.css: {}
 
 hamburger:
   version: VERSION
